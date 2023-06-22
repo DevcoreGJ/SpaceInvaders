@@ -6543,3 +6543,16 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-02.09.37:138][844]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 21.8 sec)
 [2023.06.22-02.09.37:148][844]AssetCheck: New page: Asset Save: BP_PlayerPawn
 [2023.06.22-02.09.37:148][844]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-02.14.27:624][ 88]LogSlate: Window 'Project Settings' being destroyed
+[2023.06.22-02.14.27:632][ 88]LogSlate: Window 'Project Settings' being destroyed
+[2023.06.22-02.15.21:927][121]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-02.15.22:033][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2023.06.22-02.15.32:870][291]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.06.22-02.15.34:132][291]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-02.15.34:314][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-02.15.34:523][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-02.15.34:529][291]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-02.15.34:530][291]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawnACF53216441590026024D99BF00357BC.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-02.15.34:541][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 22.0 sec)
+[2023.06.22-02.15.34:553][291]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2023.06.22-02.15.34:553][291]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
