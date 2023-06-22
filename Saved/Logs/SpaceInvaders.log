@@ -6811,3 +6811,392 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-02.32.29:042][519]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_PlayerPawn_Auto7
 [2023.06.22-02.32.29:042][519]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn_Auto77C1069114CEE41822E77528919656321.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_PlayerPawn_Auto7.uasset'
 [2023.06.22-02.32.29:043][519]LogFileHelpers: Auto-saving content packages took 0.070
+[2023.06.22-02.35.32:130][316]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-02.35.32:239][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.06.22-02.35.35:453][496]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-02.35.35:460][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-02.35.35:460][496]PIE: New page: PIE session: Map_Main (22 Jun 2023, 04:35:35)
+[2023.06.22-02.35.35:460][496]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-02.35.35:462][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001870s)
+[2023.06.22-02.35.35:463][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.001916s)
+[2023.06.22-02.35.35:463][496]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-02.35.35:463][496]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-02.35.35:463][496]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2023.06.22-02.35.35:539][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2023.06.22-02.35.35:541][496]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-02.35.35:541][496]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-02.35.35:541][496]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-02.35.35:542][496]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-02.35.35:542][496]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-02.35.35:542][496]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-02.35.35:544][496]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-02.35.35:575][496]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-02.35.35:576][496]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-02.35.35:576][496]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-02.35.35:576][496]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-02.35.35:577][496]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2023.06.22-02.35.35:577][496]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2023.06.22-02.35.35:579][496]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2023.06.22-02.35.35:579][496]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2023.06.22-02.35.35:579][496]LogInit: FAudioDevice initialized.
+[2023.06.22-02.35.35:579][496]LogAudio: Display: Audio Device (ID: 49) registered with world 'Map_Main'.
+[2023.06.22-02.35.35:583][496]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-02.35.35:583][496]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-03.35.35
+[2023.06.22-02.35.35:584][496]LogWorld: Bringing up level for play took: 0.000585
+[2023.06.22-02.35.35:586][496]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.06.22-02.35.35:588][496]PIE: Server logged in
+[2023.06.22-02.35.35:589][496]PIE: Play in editor total start time 0.128 seconds.
+[2023.06.22-02.35.43:758][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-02.35.43:758][973]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-02.35.43:758][973]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-02.35.43:758][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-02.35.43:763][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-02.35.43:772][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-02.35.43:838][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-02.35.43:838][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.06.22-02.35.43:840][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.06.22-02.35.43:849][973]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.06.22-02.35.43:906][974]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.06.22-02.36.09:822][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-02.36.09:928][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-02.36.09:935][111]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-02.36.09:935][111]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn2A53FBDB44EE8319B08E2DBA28CA8DFB.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-02.36.09:947][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 22.7 sec)
+[2023.06.22-02.36.09:959][111]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2023.06.22-02.36.09:959][111]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-02.36.11:501][204]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-02.36.11:608][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.06.22-02.36.13:179][293]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-02.36.13:185][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-02.36.13:185][293]PIE: New page: PIE session: Map_Main (22 Jun 2023, 04:36:13)
+[2023.06.22-02.36.13:207][293]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-02.36.13:209][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001573s)
+[2023.06.22-02.36.13:209][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.001636s)
+[2023.06.22-02.36.13:209][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-02.36.13:210][293]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-02.36.13:210][293]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2023.06.22-02.36.13:282][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2023.06.22-02.36.13:284][293]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-02.36.13:284][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-02.36.13:284][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-02.36.13:284][293]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-02.36.13:284][293]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-02.36.13:284][293]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-02.36.13:287][293]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-02.36.13:316][293]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-02.36.13:317][293]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-02.36.13:317][293]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-02.36.13:317][293]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-02.36.13:318][293]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2023.06.22-02.36.13:318][293]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2023.06.22-02.36.13:320][293]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2023.06.22-02.36.13:320][293]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2023.06.22-02.36.13:320][293]LogInit: FAudioDevice initialized.
+[2023.06.22-02.36.13:320][293]LogAudio: Display: Audio Device (ID: 50) registered with world 'Map_Main'.
+[2023.06.22-02.36.13:324][293]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-02.36.13:324][293]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-03.36.13
+[2023.06.22-02.36.13:324][293]LogWorld: Bringing up level for play took: 0.000536
+[2023.06.22-02.36.13:327][293]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.06.22-02.36.13:329][293]PIE: Server logged in
+[2023.06.22-02.36.13:329][293]PIE: Play in editor total start time 0.144 seconds.
+[2023.06.22-02.36.13:331][293]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:362][294]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:437][295]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:487][296]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:504][297]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:521][298]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:537][299]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:554][300]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:570][301]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:587][302]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:604][303]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:620][304]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:637][305]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:653][306]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:670][307]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:687][308]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:703][309]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:720][310]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:737][311]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:754][312]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:770][313]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:787][314]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:804][315]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:820][316]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:837][317]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:854][318]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:871][319]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:888][320]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:904][321]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:921][322]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:937][323]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:953][324]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:970][325]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.13:987][326]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:003][327]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:020][328]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:037][329]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:053][330]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:070][331]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:087][332]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:104][333]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:120][334]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:137][335]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:154][336]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:170][337]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:187][338]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:204][339]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:221][340]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:237][341]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:254][342]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:271][343]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:287][344]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:304][345]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:320][346]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:337][347]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:353][348]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:370][349]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:387][350]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:403][351]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:420][352]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:437][353]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:454][354]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:470][355]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:487][356]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:504][357]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:521][358]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:537][359]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:554][360]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:571][361]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:587][362]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:604][363]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:621][364]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:638][365]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:655][366]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:671][367]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:687][368]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:703][369]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:720][370]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:737][371]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:754][372]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:770][373]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:787][374]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:803][375]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:820][376]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:837][377]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:854][378]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:870][379]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:887][380]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:904][381]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:921][382]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:938][383]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:954][384]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:970][385]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.14:987][386]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:003][387]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:020][388]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:037][389]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:054][390]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:070][391]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:087][392]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:104][393]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:120][394]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:137][395]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:154][396]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:171][397]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:187][398]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:204][399]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:221][400]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:237][401]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:254][402]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:271][403]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:287][404]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:303][405]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:320][406]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:337][407]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:353][408]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:370][409]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:387][410]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:403][411]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:420][412]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:437][413]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:454][414]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:470][415]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:487][416]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:504][417]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:520][418]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:537][419]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:554][420]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:571][421]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:588][422]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:604][423]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:621][424]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:637][425]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:654][426]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:670][427]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:687][428]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:703][429]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:720][430]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:737][431]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:753][432]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:770][433]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:787][434]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:804][435]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:820][436]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:837][437]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:854][438]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:870][439]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:888][440]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:904][441]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:921][442]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:937][443]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:954][444]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:971][445]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.15:987][446]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:004][447]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:021][448]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:037][449]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:053][450]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:070][451]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:087][452]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:103][453]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:120][454]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:137][455]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:154][456]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:171][457]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:188][458]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:203][459]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:220][460]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:237][461]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:253][462]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:270][463]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:287][464]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:304][465]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:320][466]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:337][467]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:354][468]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:370][469]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:387][470]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:404][471]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:420][472]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:437][473]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:454][474]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:470][475]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:487][476]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:504][477]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:521][478]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:537][479]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:554][480]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:570][481]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:587][482]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:604][483]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:620][484]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:637][485]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:653][486]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:670][487]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:687][488]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:704][489]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:720][490]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:737][491]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:754][492]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:770][493]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:787][494]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:804][495]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:821][496]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:837][497]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:854][498]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:871][499]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:887][500]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:904][501]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:921][502]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:937][503]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:954][504]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:970][505]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.16:987][506]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:003][507]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:020][508]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:037][509]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:053][510]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:070][511]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:087][512]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:104][513]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:120][514]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:137][515]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:154][516]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:171][517]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:187][518]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:204][519]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:221][520]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:237][521]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:254][522]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:271][523]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:287][524]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:304][525]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:321][526]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:338][527]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:353][528]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:370][529]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:387][530]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:406][531]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:424][532]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:444][533]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:458][534]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:475][535]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:491][536]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:511][537]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:525][538]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:542][539]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:558][540]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:575][541]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:591][542]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:608][543]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:624][544]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:642][545]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:659][546]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:675][547]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:692][548]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:708][549]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:725][550]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:741][551]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:758][552]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:775][553]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:791][554]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:808][555]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:825][556]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:842][557]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:858][558]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:875][559]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:892][560]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:908][561]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.17:924][562]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.18:059][570]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-02.36.18:098][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-02.36.18:098][570]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-02.36.18:098][570]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-02.36.18:098][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-02.36.18:103][570]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-02.36.18:112][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-02.36.18:178][570]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-02.36.18:178][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.06.22-02.36.18:180][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.06.22-02.36.18:186][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-02.36.18:190][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2023.06.22-02.36.18:235][571]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.06.22-02.39.45:508][776]LogEditorTransaction: Undo Move Node
+[2023.06.22-02.39.46:462][807]LogEditorTransaction: Undo Create Pin Link
+[2023.06.22-02.39.47:331][853]LogEditorTransaction: Undo Add Node
+[2023.06.22-02.39.49:344][967]LogEditorTransaction: Redo Add Node
+[2023.06.22-02.41.10:819][672]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-02.41.10:962][672]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
