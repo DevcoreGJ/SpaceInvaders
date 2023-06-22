@@ -10370,3 +10370,338 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-17.03.11:862][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.06.22-17.03.11:866][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
 [2023.06.22-17.03.11:907][892]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2023.06.22-17.04.17:907][831]LogViewport: Scene viewport resized to 1385x691, mode Windowed.
+[2023.06.22-17.06.40:339][230]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-17.06.40:340][230]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-17.06.40:340][230]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-17.07.23:470][655]LogEditorTransaction: Undo Move Node
+[2023.06.22-17.07.24:223][675]LogEditorTransaction: Undo Move Node
+[2023.06.22-17.07.24:637][695]LogEditorTransaction: Undo Add Node
+[2023.06.22-17.07.28:608][928]BlueprintLog: New page: Compile BP_Enemy
+[2023.06.22-17.07.28:714][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.06.22-17.07.30:609][ 38]LogViewport: Scene viewport resized to 578x581, mode Windowed.
+[2023.06.22-17.07.41:048][235]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-17.07.41:057][235]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-17.07.41:070][235]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-17.07.41:086][236]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-17.07.51:564][772]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SpawnEnemy
+[2023.06.22-17.07.51:770][772]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-17.07.53:411][857]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy
+[2023.06.22-17.07.53:411][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-17.07.54:301][857]LogViewport: Scene viewport resized to 681x688, mode Windowed.
+[2023.06.22-17.08.07:629][648]LogViewport: Scene viewport resized to 675x688, mode Windowed.
+[2023.06.22-17.08.07:664][650]LogViewport: Scene viewport resized to 661x688, mode Windowed.
+[2023.06.22-17.08.07:702][652]LogViewport: Scene viewport resized to 657x688, mode Windowed.
+[2023.06.22-17.08.07:737][654]LogViewport: Scene viewport resized to 654x688, mode Windowed.
+[2023.06.22-17.08.07:774][656]LogViewport: Scene viewport resized to 652x688, mode Windowed.
+[2023.06.22-17.08.07:975][668]LogViewport: Scene viewport resized to 645x688, mode Windowed.
+[2023.06.22-17.08.08:011][670]LogViewport: Scene viewport resized to 643x688, mode Windowed.
+[2023.06.22-17.08.08:049][672]LogViewport: Scene viewport resized to 640x688, mode Windowed.
+[2023.06.22-17.08.08:200][681]LogViewport: Scene viewport resized to 638x688, mode Windowed.
+[2023.06.22-17.08.08:237][683]LogViewport: Scene viewport resized to 633x688, mode Windowed.
+[2023.06.22-17.08.08:274][685]LogViewport: Scene viewport resized to 630x688, mode Windowed.
+[2023.06.22-17.08.26:342][678]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-17.08.26:342][678]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-17.08.26:342][678]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-17.12.57:347][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.06.22-17.12.57:350][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-17.12.57:354][599]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto7
+[2023.06.22-17.12.57:354][599]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto7EC2170B7402981E44520B0B6275BF0F9.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto7.umap'
+[2023.06.22-17.12.57:363][599]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.117
+[2023.06.22-17.12.57:363][599]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.117
+[2023.06.22-17.12.57:364][599]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameFramework/BP_Enemy] ([2] browsable assets)...
+[2023.06.22-17.12.57:430][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy]
+[2023.06.22-17.12.57:430][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_Enemy]
+[2023.06.22-17.12.57:430][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_Enemy_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2023.06.22-17.12.57:442][599]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_Enemy_Auto7
+[2023.06.22-17.12.57:442][599]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_Enemy_Auto7C59AE3FF46DFC482C62EE2996114AD85.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_Enemy_Auto7.uasset'
+[2023.06.22-17.12.57:442][599]LogFileHelpers: Auto-saving content packages took 0.079
+[2023.06.22-17.14.09:132][154]BlueprintLog: New page: Compile BP_SpawnEnemy
+[2023.06.22-17.14.09:248][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.06.22-17.14.10:369][218]LogViewport: Scene viewport resized to 670x581, mode Windowed.
+[2023.06.22-17.14.13:812][397]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy_C
+[2023.06.22-17.14.13:812][397]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy_C
+[2023.06.22-17.14.13:814][397]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy as actor: BP_SpawnEnemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_SpawnEnemy_C_0
+[2023.06.22-17.14.13:814][397]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy as actor: BP_SpawnEnemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_SpawnEnemy_C_0
+[2023.06.22-17.14.16:398][547]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy_C
+[2023.06.22-17.14.16:398][547]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy_C
+[2023.06.22-17.14.16:400][547]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy as actor: BP_SpawnEnemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_SpawnEnemy_C_1
+[2023.06.22-17.14.16:402][547]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy as actor: BP_SpawnEnemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_SpawnEnemy_C_1
+[2023.06.22-17.14.18:186][650]Cmd: DUPLICATE
+[2023.06.22-17.14.18:186][650]Cmd: ACTOR DUPLICATE
+[2023.06.22-17.14.23:080][938]Cmd: DUPLICATE
+[2023.06.22-17.14.23:080][938]Cmd: ACTOR DUPLICATE
+[2023.06.22-17.14.27:222][180]Cmd: DUPLICATE
+[2023.06.22-17.14.27:222][180]Cmd: ACTOR DUPLICATE
+[2023.06.22-17.14.30:009][340]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-17.14.30:022][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-17.14.30:022][340]PIE: New page: PIE session: Map_Main (22 Jun 2023, 19:14:30)
+[2023.06.22-17.14.30:022][340]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-17.14.30:024][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002564s)
+[2023.06.22-17.14.30:025][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002629s)
+[2023.06.22-17.14.30:025][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-17.14.30:025][340]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-17.14.30:026][340]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2023.06.22-17.14.30:114][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.06.22-17.14.30:118][340]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-17.14.30:118][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-17.14.30:118][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-17.14.30:118][340]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-17.14.30:118][340]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-17.14.30:119][340]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-17.14.30:121][340]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-17.14.30:151][340]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-17.14.30:152][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-17.14.30:152][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-17.14.30:152][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-17.14.30:153][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=90
+[2023.06.22-17.14.30:153][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=90
+[2023.06.22-17.14.30:155][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2023.06.22-17.14.30:155][340]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=90
+[2023.06.22-17.14.30:155][340]LogInit: FAudioDevice initialized.
+[2023.06.22-17.14.30:155][340]LogAudio: Display: Audio Device (ID: 90) registered with world 'Map_Main'.
+[2023.06.22-17.14.30:160][340]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-17.14.30:160][340]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-18.14.30
+[2023.06.22-17.14.30:161][340]LogWorld: Bringing up level for play took: 0.001128
+[2023.06.22-17.14.30:163][340]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2023.06.22-17.14.30:168][340]PIE: Server logged in
+[2023.06.22-17.14.30:169][340]PIE: Play in editor total start time 0.155 seconds.
+[2023.06.22-17.14.37:539][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-17.14.37:539][757]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-17.14.37:539][757]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-17.14.37:539][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-17.14.37:554][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-17.14.37:562][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-17.14.37:650][757]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-17.14.37:650][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2023.06.22-17.14.37:652][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2023.06.22-17.14.37:658][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-17.14.37:662][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.06.22-17.14.37:711][758]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2023.06.22-17.14.38:885][824]LogViewport: Scene viewport resized to 1176x585, mode Windowed.
+[2023.06.22-17.14.41:112][930]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-17.14.41:118][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-17.14.41:118][930]PIE: New page: PIE session: Map_Main (22 Jun 2023, 19:14:41)
+[2023.06.22-17.14.41:118][930]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-17.14.41:121][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002696s)
+[2023.06.22-17.14.41:121][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002745s)
+[2023.06.22-17.14.41:121][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-17.14.41:122][930]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-17.14.41:122][930]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2023.06.22-17.14.41:223][930]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.06.22-17.14.41:226][930]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-17.14.41:226][930]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-17.14.41:226][930]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-17.14.41:227][930]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-17.14.41:227][930]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-17.14.41:227][930]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-17.14.41:229][930]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-17.14.41:262][930]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-17.14.41:262][930]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-17.14.41:262][930]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-17.14.41:262][930]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-17.14.41:263][930]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=91
+[2023.06.22-17.14.41:263][930]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=91
+[2023.06.22-17.14.41:266][930]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=91
+[2023.06.22-17.14.41:266][930]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=91
+[2023.06.22-17.14.41:266][930]LogInit: FAudioDevice initialized.
+[2023.06.22-17.14.41:266][930]LogAudio: Display: Audio Device (ID: 91) registered with world 'Map_Main'.
+[2023.06.22-17.14.41:269][930]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-17.14.41:270][930]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-18.14.41
+[2023.06.22-17.14.41:270][930]LogWorld: Bringing up level for play took: 0.001029
+[2023.06.22-17.14.41:273][930]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2023.06.22-17.14.41:277][930]PIE: Server logged in
+[2023.06.22-17.14.41:278][930]PIE: Play in editor total start time 0.161 seconds.
+[2023.06.22-17.14.47:298][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-17.14.47:298][168]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-17.14.47:299][168]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-17.14.47:299][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-17.14.47:376][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-17.14.47:383][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-17.14.47:475][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-17.14.47:475][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2023.06.22-17.14.47:477][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2023.06.22-17.14.47:488][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.06.22-17.14.47:542][169]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2023.06.22-17.14.51:894][265]Cmd: DELETE
+[2023.06.22-17.14.51:894][265]Cmd: ACTOR DELETE
+[2023.06.22-17.14.51:897][265]LogEditorActor: Deleted Actor: BP_SpawnEnemy_C
+[2023.06.22-17.14.52:012][265]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2023.06.22-17.14.52:017][265]LogEditorActor: Deleted 1 Actors (0.123 secs)
+[2023.06.22-17.14.53:015][286]Cmd: DELETE
+[2023.06.22-17.14.53:015][286]Cmd: ACTOR DELETE
+[2023.06.22-17.14.53:017][286]LogEditorActor: Deleted Actor: BP_SpawnEnemy_C
+[2023.06.22-17.14.53:117][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2023.06.22-17.14.53:120][286]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2023.06.22-17.14.55:815][352]Cmd: DELETE
+[2023.06.22-17.14.55:815][352]Cmd: ACTOR DELETE
+[2023.06.22-17.14.55:817][352]LogEditorActor: Deleted Actor: BP_SpawnEnemy_C
+[2023.06.22-17.14.55:929][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.06.22-17.14.55:934][352]LogEditorActor: Deleted 1 Actors (0.119 secs)
+[2023.06.22-17.14.57:551][388]Cmd: DELETE
+[2023.06.22-17.14.57:551][388]Cmd: ACTOR DELETE
+[2023.06.22-17.14.57:553][388]LogEditorActor: Deleted Actor: BP_SpawnEnemy_C
+[2023.06.22-17.14.57:646][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.06.22-17.14.57:650][388]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2023.06.22-17.15.02:012][492]Cmd: DELETE
+[2023.06.22-17.15.02:012][492]Cmd: ACTOR DELETE
+[2023.06.22-17.15.02:014][492]LogEditorActor: Deleted Actor: BP_SpawnEnemy_C
+[2023.06.22-17.15.02:124][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.06.22-17.15.02:128][492]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2023.06.22-17.15.05:522][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.06.22-17.15.07:501][571]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.22-17.15.12:783][571]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-17.15.12:783][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-17.15.12:851][571]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/GameFramework/BP_SpawnEnemy.BP_SpawnEnemy
+	Asset Type: Blueprint
+[2023.06.22-17.15.13:906][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.06.22-17.15.13:993][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2023.06.22-17.15.14:075][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.06.22-17.18.22:431][278]LogSlate: Window 'Pick Row Structure' being destroyed
+[2023.06.22-17.19.23:193][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.06.22-17.19.25:340][ 73]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-17.19.25:596][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-17.19.25:695][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-17.19.25:780][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.06.22-17.19.25:787][ 73]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-17.19.25:787][ 73]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_MainB75ED7094C1ECD048EE2C481155518AE.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-17.19.25:804][ 73]LogFileHelpers: Saving map 'Map_Main' took 0.110
+[2023.06.22-17.19.25:804][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset" SILENT=true
+[2023.06.22-17.19.25:808][ 73]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_Enemy
+[2023.06.22-17.19.25:809][ 73]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_Enemy221F033A40C3D94D1299479A32170816.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset'
+[2023.06.22-17.19.25:821][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 28.6 sec)
+[2023.06.22-17.19.25:832][ 73]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-17.19.25:833][ 73]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
+[2023.06.22-17.19.25:833][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy
+[2023.06.22-17.20.04:161][171]LogSlate: Took 0.012330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.06.22-17.28.41:963][401]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-17.28.42:131][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.06.22-17.30.13:105][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.06.22-17.30.13:111][734]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.086
+[2023.06.22-17.30.13:112][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFramework/BP_SpaceInvaders] ([2] browsable assets)...
+[2023.06.22-17.30.13:112][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_SpaceInvaders]
+[2023.06.22-17.30.13:115][734]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto8
+[2023.06.22-17.30.13:115][734]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvaders_Auto85FDD76534D21924976E6D4B44E10DEED.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto8.uasset'
+[2023.06.22-17.30.13:115][734]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameFramework/BP_PlayerPawn] ([2] browsable assets)...
+[2023.06.22-17.30.13:181][734]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn]
+[2023.06.22-17.30.13:181][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_PlayerPawn]
+[2023.06.22-17.30.13:193][734]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_PlayerPawn_Auto8
+[2023.06.22-17.30.13:194][734]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn_Auto83B37F3714E457B9DC1595A9596A2A097.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_PlayerPawn_Auto8.uasset'
+[2023.06.22-17.30.13:194][734]LogFileHelpers: Auto-saving content packages took 0.084
+[2023.06.22-17.32.09:707][419]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-17.32.09:834][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.06.22-17.33.11:072][837]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-17.33.11:176][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.06.22-17.33.26:995][667]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2023.06.22-17.33.27:007][667]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2023.06.22-17.33.27:027][668]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2023.06.22-17.33.30:620][843]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> NewUserDefinedStruct
+[2023.06.22-17.33.30:886][843]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2023.06.22-17.33.49:182][310]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2023.06.22-17.33.49:192][310]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2023.06.22-17.33.49:205][311]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2023.06.22-17.33.56:457][507]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> Gameplay_Struct
+[2023.06.22-17.33.56:756][507]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2023.06.22-17.36.12:041][187]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-17.36.12:152][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.06.22-17.36.38:406][432]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-17.36.38:419][432]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-17.36.38:425][432]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-17.36.38:438][433]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-17.36.45:292][740]LogContentBrowser: Attempting asset rename: NewBlueprint -> Enemy_Parent
+[2023.06.22-17.36.45:552][740]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-17.38.00:923][  0]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-17.38.01:058][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.06.22-17.41.56:209][759]LogDerivedDataCache: C:/Users/El Ledson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.016 and deleted 0 files with total size 0 MiB. Scanned 5086 files in 5025 folders with total size 215 MiB.
+[2023.06.22-17.43.08:046][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.06.22-17.43.08:051][986]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.092
+[2023.06.22-17.43.08:051][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFramework/BP_SpaceInvaders] ([2] browsable assets)...
+[2023.06.22-17.43.08:051][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_SpaceInvaders]
+[2023.06.22-17.43.08:067][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto9
+[2023.06.22-17.43.08:067][986]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvaders_Auto9258A5F914A37007B3663F3B8DA3E8736.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto9.uasset'
+[2023.06.22-17.43.08:068][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewUserDefinedStruct] ([1] browsable assets)...
+[2023.06.22-17.43.08:068][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewUserDefinedStruct]
+[2023.06.22-17.43.08:068][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewUserDefinedStruct" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/NewUserDefinedStruct_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2023.06.22-17.43.08:069][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewUserDefinedStruct_Auto9
+[2023.06.22-17.43.08:069][986]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/NewUserDefinedStruct_Auto9DEEEDB5F4A5EDD49184A13A8412E32C3.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/NewUserDefinedStruct_Auto9.uasset'
+[2023.06.22-17.43.08:070][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFramework/Gameplay_Struct] ([1] browsable assets)...
+[2023.06.22-17.43.08:070][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/Gameplay_Struct]
+[2023.06.22-17.43.08:071][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/Gameplay_Struct_Auto9
+[2023.06.22-17.43.08:071][986]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Gameplay_Struct_Auto92BA5F2F44C1EB281074A3FB0C315BB52.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/Gameplay_Struct_Auto9.uasset'
+[2023.06.22-17.43.08:071][986]LogFileHelpers: Auto-saving content packages took 0.020
+[2023.06.22-17.46.04:083][477]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-17.46.04:188][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.06.22-17.46.46:590][959]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Map_Main.Map_Main:PersistentLevel.Map_Main
+[2023.06.22-17.46.46:591][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-17.53.08:411][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.06.22-17.53.08:414][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-17.53.08:421][818]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto0
+[2023.06.22-17.53.08:421][818]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto092CAE14F4A797F9A9396D79232EE3B04.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto0.umap'
+[2023.06.22-17.53.08:433][818]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.121
+[2023.06.22-17.53.08:433][818]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.121
+[2023.06.22-17.53.08:433][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFramework/BP_SpaceInvaders] ([2] browsable assets)...
+[2023.06.22-17.53.08:433][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_SpaceInvaders]
+[2023.06.22-17.53.08:438][818]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto0
+[2023.06.22-17.53.08:438][818]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvaders_Auto0D18BD7EE4CDCB5ABD22A1D8DEF7460E3.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto0.uasset'
+[2023.06.22-17.53.08:439][818]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.06.22-18.03.08:906][315]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.06.22-18.03.08:910][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-18.03.08:919][315]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto1
+[2023.06.22-18.03.08:920][315]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto1E0FBA71844FCCC6B33B138BE76237A76.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto1.umap'
+[2023.06.22-18.03.08:929][315]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.128
+[2023.06.22-18.03.08:929][315]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.128
+[2023.06.22-18.29.45:831][766]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.06.22-18.29.45:831][766]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.06.22-18.29.45:831][766]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Map_Main.Map_Main:PersistentLevel.BlockingVolume_0
+[2023.06.22-18.29.47:830][766]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Map_Main.Map_Main:PersistentLevel.BlockingVolume_0
+[2023.06.22-18.29.47:855][766]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.06.22-18.29.47:855][766]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.06.22-18.29.47:856][766]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Map_Main.Map_Main:PersistentLevel.BlockingVolume_1
+[2023.06.22-18.29.47:858][766]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Map_Main.Map_Main:PersistentLevel.BlockingVolume_1
+[2023.06.22-18.31.34:396][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-18.31.34:493][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-18.31.34:598][863]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2023.06.22-18.31.34:614][863]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-18.31.34:614][863]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main6595F6AC4E9746D784CD44A3E44B5C96.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-18.31.34:633][863]LogFileHelpers: Saving map 'Map_Main' took 0.140
+[2023.06.22-18.31.34:648][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 251 ms (total: 28.9 sec)
+[2023.06.22-18.31.34:658][863]AssetCheck: New page: Asset Save: Map_Main
+[2023.06.22-18.31.34:658][863]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
+[2023.06.22-18.31.44:014][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.06.22-18.31.45:647][928]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-18.31.45:924][928]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-18.31.46:027][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-18.31.46:042][928]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-18.31.46:042][928]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn343198B840EB4582BFC499AA7470FB1B.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-18.31.46:044][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_SpaceInvaders" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_SpaceInvaders.uasset" SILENT=true
+[2023.06.22-18.31.46:049][928]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_SpaceInvaders
+[2023.06.22-18.31.46:049][928]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvaders228126444738D2BD0CA2CA9E677CF034.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_SpaceInvaders.uasset'
+[2023.06.22-18.31.46:051][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/Enemy_Parent" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Enemy_Parent.uasset" SILENT=true
+[2023.06.22-18.31.46:058][928]LogSavePackage: Moving output files for package: /Game/GameFramework/Enemy_Parent
+[2023.06.22-18.31.46:058][928]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Enemy_Parent54DD2F7C42C3D488B864399DFB2493D4.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Enemy_Parent.uasset'
+[2023.06.22-18.31.46:060][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/Gameplay_Struct" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Gameplay_Struct.uasset" SILENT=true
+[2023.06.22-18.31.46:065][928]LogSavePackage: Moving output files for package: /Game/GameFramework/Gameplay_Struct
+[2023.06.22-18.31.46:065][928]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Gameplay_Struct4AE82413486CA1F5D5140DB2C6D71761.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Gameplay_Struct.uasset'
+[2023.06.22-18.31.46:066][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewUserDefinedStruct" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/NewUserDefinedStruct.uasset" SILENT=true
+[2023.06.22-18.31.46:067][928]LogSavePackage: Moving output files for package: /Game/NewUserDefinedStruct
+[2023.06.22-18.31.46:067][928]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/NewUserDefinedStructABE3C9A342129F511D29D7B5921547CC.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/NewUserDefinedStruct.uasset'
+[2023.06.22-18.31.46:447][928]LogFileHelpers: InternalPromptForCheckoutAndSave took 523 ms (total: 29.4 sec)
+[2023.06.22-18.31.46:464][928]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders
+[2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/GameFramework/Gameplay_Struct.Gameplay_Struct
+[2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/Enemy_Parent.Enemy_Parent
+[2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/NewUserDefinedStruct.NewUserDefinedStruct
+[2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
