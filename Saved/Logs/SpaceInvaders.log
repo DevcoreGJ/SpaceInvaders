@@ -8656,3 +8656,617 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-04.15.23:637][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 25.5 sec)
 [2023.06.22-04.15.23:648][178]AssetCheck: New page: Asset Save: BP_MyProjectile
 [2023.06.22-04.15.23:648][178]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
+[2023.06.22-04.18.33:954][651]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-04.18.33:964][651]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-04.18.33:971][651]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-04.18.33:986][652]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-04.18.39:693][788]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2023.06.22-04.18.39:693][788]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-04.18.47:657][906]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-04.18.47:670][906]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-04.18.47:676][906]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-04.18.47:688][907]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-04.19.03:368][217]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Enemy
+[2023.06.22-04.19.03:654][217]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-04.19.04:005][227]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy
+[2023.06.22-04.19.04:005][227]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.19.05:004][227]LogViewport: Scene viewport resized to 1385x693, mode Windowed.
+[2023.06.22-04.19.25:020][395]BlueprintLog: New page: Compile BP_Enemy
+[2023.06.22-04.19.25:149][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2023.06.22-04.19.29:982][507]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.06.22-04.19.29:993][507]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.06.22-04.19.30:005][508]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.06.22-04.19.39:298][679]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Enemy
+[2023.06.22-04.19.39:621][679]LogContentBrowser: End creating deferred item NewMaterial
+[2023.06.22-04.19.45:623][766]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/GameFramework/M_Enemy.M_Enemy
+[2023.06.22-04.19.45:628][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.19.45:882][766]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.45:882][766]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.45:882][766]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.19.45:888][766]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.06.22-04.19.47:991][874]LogShaderCompilers: Display: ================================================
+[2023.06.22-04.19.47:991][874]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Total job queries 358, among them cache hits 131 (36.59%)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Tracking 224 distinct input hashes that result in 148 distinct outputs (66.07%)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: RAM used: 1.55 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.09%
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Shaders Compiled: 224
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Jobs assigned 227, completed 224 (98.68%)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Average time worker was idle: 346.29 s
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Time job spent in pending queue: average 2.66 s, longest 25.56 s
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Job execution time: average 4.72 s, max 20.37 s
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Job life time (pending + execution): average 7.41 s, max 28.29
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 113.08 s
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Jobs were issued in 182 batches (only local compilation was used), average 1.25 jobs/batch
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Average processing rate: 1.98 jobs/sec
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Total thread time: 322.90 s
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Total thread preprocess time: 19.10 s
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Percentage time preprocessing: 5.92%
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Effective parallelization: 2.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.43 sec, max 2.43 sec, min 2.43 sec)
+[2023.06.22-04.19.47:992][874]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 2.32 sec, max 2.32 sec, min 2.32 sec)
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.89% of total time (compiled   44 times, average 1.68 sec, max 2.67 sec, min 0.82 sec)
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.36% of total time (compiled   44 times, average 1.57 sec, max 2.23 sec, min 0.92 sec)
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.54% of total time (compiled   30 times, average 1.35 sec, max 1.74 sec, min 0.84 sec)
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 12.19% of total time (compiled   17 times, average 2.32 sec, max 3.49 sec, min 1.59 sec)
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.08% of total time (compiled   31 times, average 0.95 sec, max 1.52 sec, min 0.57 sec)
+[2023.06.22-04.19.47:993][874]LogShaderCompilers: Display: ================================================
+[2023.06.22-04.19.48:720][912]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.19.48:720][912]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.48:720][912]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.48:720][912]MaterialEditorStats: Shader Count: 3
+[2023.06.22-04.19.48:835][918]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.06.22-04.19.48:836][918]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.19.48:836][918]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.22-04.19.48:836][918]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.48:836][918]MaterialEditorStats: Shader Count: 4
+[2023.06.22-04.19.51:873][ 75]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.51:873][ 75]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.51:873][ 75]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.19.51:946][ 77]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.06.22-04.19.51:946][ 77]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.19.51:946][ 77]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.22-04.19.51:946][ 77]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.51:946][ 77]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.19.53:191][137]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.53:191][137]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.53:191][137]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.19.55:179][249]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.19.55:180][249]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.55:180][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.55:180][249]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.19.55:244][251]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.06.22-04.19.55:244][251]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.19.55:244][251]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.55:244][251]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.55:244][251]MaterialEditorStats: Shader Count: 4
+[2023.06.22-04.19.56:777][339]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.19.56:778][339]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.56:778][339]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.19.58:310][430]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.19.58:310][430]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.19.58:310][430]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.58:310][430]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.19.58:410][436]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.19.58:410][436]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.19.58:410][436]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.19.58:410][436]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.19.58:410][436]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.20.08:846][ 42]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.20.08:846][ 42]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.08:846][ 42]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.20.08:906][ 44]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.20.08:906][ 44]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.20.08:906][ 44]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.20.08:906][ 44]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.08:906][ 44]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.20.12:501][243]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.20.12:501][243]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.12:501][243]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.20.14:008][333]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.20.14:008][333]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.20.14:008][333]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.14:008][333]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.20.14:107][339]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.20.14:107][339]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.20.14:107][339]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.20.14:107][339]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.14:107][339]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.20.23:668][901]LogSlate: Window 'Color Picker' being destroyed
+[2023.06.22-04.20.23:681][901]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.20.23:681][901]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.23:681][901]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.20.23:705][903]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.20.23:705][903]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.20.23:705][903]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.20.23:705][903]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.23:705][903]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.20.31:869][359]LogSlate: Window 'Color Picker' being destroyed
+[2023.06.22-04.20.31:883][359]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.20.31:883][359]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.31:883][359]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.20.34:006][483]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.20.34:006][483]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.20.34:006][483]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.34:006][483]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.20.34:215][495]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.20.34:215][495]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.20.34:215][495]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.20.34:216][495]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.34:216][495]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.20.51:348][430]LogSlate: Window 'Color Picker' being destroyed
+[2023.06.22-04.20.51:360][430]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.20.51:360][430]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.51:360][430]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.20.53:305][547]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.20.53:305][547]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.20.53:305][547]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.53:305][547]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.20.53:504][559]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.20.53:504][559]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.20.53:504][559]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.20.53:504][559]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.20.53:504][559]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.00:473][971]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.00:473][971]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.00:473][971]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.00:538][973]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.21.00:538][973]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.21.00:538][973]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.21.00:538][973]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.00:538][973]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.07:855][373]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.07:855][373]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.07:855][373]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.09:619][474]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.21.09:619][474]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.09:619][474]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.09:619][474]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.21.09:707][479]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.21.09:707][479]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.21.09:707][479]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.21.09:707][479]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.09:707][479]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.10:783][525]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.10:783][525]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.10:783][525]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.10:826][527]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2023.06.22-04.21.10:826][527]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.21.10:826][527]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.21.10:826][527]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.10:826][527]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.12:128][585]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.12:129][585]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.12:129][585]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.13:891][687]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.21.13:891][687]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.13:891][687]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.13:891][687]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.21.14:004][693]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.21.14:004][693]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.21.14:004][693]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.21.14:004][693]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.14:004][693]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.18:179][907]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.18:179][907]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.18:179][907]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.18:226][909]MaterialEditorStats: Base pass shader without light map: 99 instructions
+[2023.06.22-04.21.18:226][909]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.06.22-04.21.18:226][909]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.22-04.21.18:226][909]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.18:226][909]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.20:220][  9]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.20:220][  9]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.20:220][  9]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.21:758][100]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.21:758][100]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.21:758][100]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.21:758][100]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.21.21:958][112]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.21:958][112]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.21:958][112]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.21:958][112]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.21:958][112]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.26:575][364]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.26:575][364]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.26:575][364]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.26:624][366]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.26:624][366]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.26:624][366]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.26:624][366]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.26:624][366]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.27:856][435]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.27:856][435]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.27:856][435]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.29:492][527]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.29:492][527]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.29:492][527]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.29:492][527]MaterialEditorStats: Shader Count: 1
+[2023.06.22-04.21.29:599][533]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.29:599][533]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.29:599][533]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.29:599][533]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.29:599][533]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.30:528][571]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.30:528][571]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.30:530][571]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.30:575][573]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.30:575][573]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.30:575][573]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.30:575][573]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.30:576][573]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.32:549][667]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.32:549][667]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.32:549][667]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.34:560][774]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.21.34:560][774]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.34:560][774]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.34:560][774]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.34:766][785]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.34:766][785]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.21.34:766][785]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.34:766][785]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.34:766][785]MaterialEditorStats: Shader Count: 4
+[2023.06.22-04.21.35:538][815]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.35:538][815]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.35:538][815]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.35:591][817]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.35:591][817]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-04.21.35:591][817]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.35:591][817]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.35:591][817]MaterialEditorStats: Shader Count: 4
+[2023.06.22-04.21.38:294][956]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.38:294][956]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.38:294][956]MaterialEditorStats: Shader Count: 0
+[2023.06.22-04.21.38:333][958]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.38:333][958]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.38:333][958]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.38:333][958]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.38:333][958]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.44:123][272]LogMaterialEditor: Applying material M_Enemy
+[2023.06.22-04.21.44:945][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.06.22-04.21.46:213][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.06.22-04.21.46:226][272]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-04.21.46:226][272]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.46:226][272]MaterialEditorStats: Shader Count: 2
+[2023.06.22-04.21.46:250][274]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.46:251][274]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.46:251][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.46:251][274]MaterialEditorStats: Shader Count: 3
+[2023.06.22-04.21.46:267][275]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.06.22-04.21.46:267][275]MaterialEditorStats: Base pass vertex shader: 214 instructions
+[2023.06.22-04.21.46:267][275]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.22-04.21.46:267][275]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-04.21.46:267][275]MaterialEditorStats: Shader Count: 4
+[2023.06.22-04.21.58:511][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.06.22-04.22.00:447][  2]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-04.22.00:726][  2]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-04.22.00:851][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset" SILENT=true
+[2023.06.22-04.22.00:856][  2]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_Enemy
+[2023.06.22-04.22.00:856][  2]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_Enemy0780633A46DE27A7D001D58049B5EBAF.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset'
+[2023.06.22-04.22.00:870][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyProjectile" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset" SILENT=true
+[2023.06.22-04.22.00:874][  2]LogSavePackage: Moving output files for package: /Game/BP_MyProjectile
+[2023.06.22-04.22.00:874][  2]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_MyProjectile215AA8F54FE5B3002CF00BAEB078F970.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset'
+[2023.06.22-04.22.02:196][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/M_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/M_Enemy.uasset" SILENT=true
+[2023.06.22-04.22.02:197][  2]LogSavePackage: Moving output files for package: /Game/GameFramework/M_Enemy
+[2023.06.22-04.22.02:197][  2]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/M_EnemyB8CECBAF454729617A7EC7A6F77C5DC5.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/M_Enemy.uasset'
+[2023.06.22-04.22.02:486][  2]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.76 sec (total: 27.3 sec)
+[2023.06.22-04.22.02:496][  2]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-04.22.02:496][  2]LogContentValidation: Display: Validating /Script/Engine.Material /Game/GameFramework/M_Enemy.M_Enemy
+[2023.06.22-04.22.02:496][  2]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy
+[2023.06.22-04.22.02:496][  2]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
+[2023.06.22-04.22.03:679][ 69]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-04.22.03:679][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.22.09:555][353]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineMaterials/BaseFlattenMaterial_VT.uasset: 'D:/UE_5.1/Engine/Content/EngineMaterials/BaseFlattenMaterial_VT.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.09:555][353]SourceControl: fatal: D:/UE_5.1/Engine/Content/MapTemplates/Materials: 'D:/UE_5.1/Engine/Content/MapTemplates/Materials' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.09:555][353]SourceControl: fatal: D:/UE_5.1/Engine/Content/BasicShapes: 'D:/UE_5.1/Engine/Content/BasicShapes' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.09:556][353]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'D:/UE_5.1/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.15:707][653]SourceControl: fatal: D:/UE_5.1/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/UE_5.1/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.15:707][653]SourceControl: fatal: D:/UE_5.1/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/UE_5.1/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.15:707][653]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasReference.uasset: 'D:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasReference.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.15:707][653]SourceControl: fatal: D:/UE_5.1/Engine/Content/EditorLandscapeResources: 'D:/UE_5.1/Engine/Content/EditorLandscapeResources' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.15:707][653]SourceControl: fatal: D:/UE_5.1/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'D:/UE_5.1/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.16:487][694]SourceControl: fatal: D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug: 'D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.22.16:487][694]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineSky/M_AdvancedSkyDome.uasset: 'D:/UE_5.1/Engine/Content/EngineSky/M_AdvancedSkyDome.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-04.23.27:255][384]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_Enemy.BP_Enemy_C
+[2023.06.22-04.23.27:255][384]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_Enemy.BP_Enemy_C
+[2023.06.22-04.23.27:257][384]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_Enemy_C_0
+[2023.06.22-04.23.27:258][384]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_Enemy_C_0
+[2023.06.22-04.23.30:783][468]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_Enemy.BP_Enemy_C
+[2023.06.22-04.23.30:783][468]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GameFramework/BP_Enemy.BP_Enemy_C
+[2023.06.22-04.23.30:786][468]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_Enemy_C_1
+[2023.06.22-04.23.30:787][468]LogActorFactory: Actor Factory spawned Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Map_Main.Map_Main:PersistentLevel.BP_Enemy_C_1
+[2023.06.22-04.24.05:625][147]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2023.06.22-04.24.05:628][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-04.24.05:633][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto3
+[2023.06.22-04.24.05:633][147]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto32EC6AC6C4E954C24C922D881C4F486E6.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto3.umap'
+[2023.06.22-04.24.05:643][147]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.129
+[2023.06.22-04.24.05:643][147]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.129
+[2023.06.22-04.24.05:643][147]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFramework/BP_Enemy] ([2] browsable assets)...
+[2023.06.22-04.24.05:643][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_Enemy]
+[2023.06.22-04.24.05:643][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_Enemy_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.06.22-04.24.05:648][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_Enemy_Auto3
+[2023.06.22-04.24.05:648][147]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_Enemy_Auto345A39407463B6F501B757B8F3AF18CFB.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_Enemy_Auto3.uasset'
+[2023.06.22-04.24.05:649][147]LogFileHelpers: Auto-saving content packages took 0.005
+[2023.06.22-04.24.46:234][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.06.22-04.24.49:106][978]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-04.24.49:431][978]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-04.24.49:538][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-04.24.49:625][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.06.22-04.24.49:631][978]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-04.24.49:631][978]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main1078E58C4529280BF669ABA357C8F885.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-04.24.49:648][978]LogFileHelpers: Saving map 'Map_Main' took 0.110
+[2023.06.22-04.24.49:649][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset" SILENT=true
+[2023.06.22-04.24.49:652][978]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_Enemy
+[2023.06.22-04.24.49:653][978]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_Enemy0953B58942B0151A03009284B5A1FFEA.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset'
+[2023.06.22-04.24.49:668][978]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 27.5 sec)
+[2023.06.22-04.24.49:679][978]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-04.24.49:679][978]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
+[2023.06.22-04.24.49:679][978]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy
+[2023.06.22-04.26.47:140][870]BlueprintLog: New page: Compile BP_Enemy
+[2023.06.22-04.26.47:338][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.06.22-04.29.54:302][825]BlueprintLog: New page: Compile BP_MyProjectile
+[2023.06.22-04.29.54:627][825]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2023.06.22-04.34.27:209][962]BlueprintLog: New page: Compile BP_MyProjectile
+[2023.06.22-04.34.27:344][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.06.22-04.34.34:241][163]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-04.34.34:249][163]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.22-04.34.34:250][163]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2023.06.22-04.34.34:397][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2023.06.22-04.34.34:400][163]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
+[2023.06.22-04.34.34:400][163]PIE: New page: PIE session: Map_Main (22 Jun 2023, 06:34:34)
+[2023.06.22-04.34.34:400][163]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.34.34:402][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002214s)
+[2023.06.22-04.34.34:402][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002256s)
+[2023.06.22-04.34.34:402][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.34.34:403][163]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-04.34.34:403][163]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2023.06.22-04.34.34:499][163]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2023.06.22-04.34.34:500][163]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2023.06.22-04.34.34:500][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-04.34.34:500][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-04.34.34:501][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-04.34.34:501][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-04.34.34:501][163]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-04.34.34:501][163]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-04.34.34:501][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-04.34.34:501][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-04.34.34:501][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-04.34.34:501][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-04.34.34:501][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-04.34.34:504][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-04.34.34:538][163]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-04.34.34:538][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-04.34.34:538][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-04.34.34:538][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-04.34.34:539][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2023.06.22-04.34.34:539][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2023.06.22-04.34.34:541][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2023.06.22-04.34.34:542][163]LogInit: FAudioDevice initialized.
+[2023.06.22-04.34.34:542][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2023.06.22-04.34.34:542][163]LogAudio: Display: Audio Device (ID: 68) registered with world 'Map_Main'.
+[2023.06.22-04.34.34:546][163]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-04.34.34:546][163]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-05.34.34
+[2023.06.22-04.34.34:547][163]LogWorld: Bringing up level for play took: 0.000757
+[2023.06.22-04.34.34:549][163]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2023.06.22-04.34.34:551][163]PIE: Server logged in
+[2023.06.22-04.34.34:552][163]PIE: Play in editor total start time 0.304 seconds.
+[2023.06.22-04.34.44:273][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.34.44:273][353]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.34.44:273][353]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-04.34.44:273][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.34.44:351][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-04.34.44:361][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.34.44:455][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.34.44:455][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2023.06.22-04.34.44:459][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2023.06.22-04.34.44:469][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.06.22-04.34.44:584][354]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2023.06.22-04.34.59:404][646]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-04.34.59:409][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-04.34.59:409][646]PIE: New page: PIE session: Map_Main (22 Jun 2023, 06:34:59)
+[2023.06.22-04.34.59:409][646]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.34.59:413][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003025s)
+[2023.06.22-04.34.59:413][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.003078s)
+[2023.06.22-04.34.59:413][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.34.59:414][646]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-04.34.59:415][646]LogPlayLevel: PIE: World Init took: (0.002162s)
+[2023.06.22-04.34.59:522][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.06.22-04.34.59:525][646]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-04.34.59:525][646]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-04.34.59:525][646]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-04.34.59:526][646]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-04.34.59:526][646]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-04.34.59:526][646]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-04.34.59:529][646]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-04.34.59:565][646]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-04.34.59:565][646]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-04.34.59:566][646]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-04.34.59:566][646]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-04.34.59:566][646]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2023.06.22-04.34.59:566][646]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2023.06.22-04.34.59:569][646]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2023.06.22-04.34.59:569][646]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2023.06.22-04.34.59:569][646]LogInit: FAudioDevice initialized.
+[2023.06.22-04.34.59:569][646]LogAudio: Display: Audio Device (ID: 69) registered with world 'Map_Main'.
+[2023.06.22-04.34.59:573][646]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-04.34.59:573][646]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-05.34.59
+[2023.06.22-04.34.59:574][646]LogWorld: Bringing up level for play took: 0.000755
+[2023.06.22-04.34.59:576][646]LogOnline: OSS: Created online subsystem instance for: :Context_86
+[2023.06.22-04.34.59:579][646]PIE: Server logged in
+[2023.06.22-04.34.59:580][646]PIE: Play in editor total start time 0.171 seconds.
+[2023.06.22-04.35.09:982][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.35.09:982][855]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.35.09:982][855]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-04.35.09:982][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.35.10:048][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-04.35.10:058][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.35.10:153][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-04.35.10:153][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2023.06.22-04.35.10:156][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2023.06.22-04.35.10:162][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.35.10:167][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.06.22-04.35.10:239][856]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2023.06.22-04.36.16:900][654]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.06.22-04.36.16:903][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-04.36.16:908][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto4
+[2023.06.22-04.36.16:908][654]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto4E1FBEB994478D5D802EF699EBA0D251C.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto4.umap'
+[2023.06.22-04.36.16:919][654]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.104
+[2023.06.22-04.36.16:919][654]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.104
+[2023.06.22-04.36.16:920][654]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MyProjectile] ([2] browsable assets)...
+[2023.06.22-04.36.17:027][654]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MyProjectile.BP_MyProjectile]
+[2023.06.22-04.36.17:027][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MyProjectile]
+[2023.06.22-04.36.17:028][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyProjectile" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/BP_MyProjectile_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.06.22-04.36.17:034][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_MyProjectile_Auto4
+[2023.06.22-04.36.17:034][654]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_MyProjectile_Auto49A1E3DDD418CB7E18AE6E5BC109CE21E.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/BP_MyProjectile_Auto4.uasset'
+[2023.06.22-04.36.17:035][654]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameFramework/BP_Enemy] ([2] browsable assets)...
+[2023.06.22-04.36.17:056][654]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy]
+[2023.06.22-04.36.17:056][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_Enemy]
+[2023.06.22-04.36.17:056][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_Enemy_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.06.22-04.36.17:061][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_Enemy_Auto4
+[2023.06.22-04.36.17:061][654]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_Enemy_Auto480BEF6C1422D626745C9CC970D621F45.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_Enemy_Auto4.uasset'
+[2023.06.22-04.36.17:061][654]LogFileHelpers: Auto-saving content packages took 0.142
+[2023.06.22-04.36.26:514][ 49]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-04.36.26:631][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.06.22-04.36.31:621][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.06.22-04.36.33:517][255]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-04.36.33:779][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-04.36.33:870][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-04.36.33:959][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.06.22-04.36.33:966][255]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-04.36.33:966][255]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_MainD24E73C64C5D13B862B875BDC0183AE4.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-04.36.33:982][255]LogFileHelpers: Saving map 'Map_Main' took 0.112
+[2023.06.22-04.36.33:982][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_Enemy" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset" SILENT=true
+[2023.06.22-04.36.33:987][255]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_Enemy
+[2023.06.22-04.36.33:987][255]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_EnemyC5182D3F4FEA67F1B2F585B4B4A2590A.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_Enemy.uasset'
+[2023.06.22-04.36.33:988][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyProjectile" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset" SILENT=true
+[2023.06.22-04.36.33:994][255]LogSavePackage: Moving output files for package: /Game/BP_MyProjectile
+[2023.06.22-04.36.33:995][255]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_MyProjectile81EBF19F4E5469D504BE958A6B22B527.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset'
+[2023.06.22-04.36.34:007][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 27.8 sec)
+[2023.06.22-04.36.34:019][255]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-04.36.34:019][255]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
+[2023.06.22-04.36.34:019][255]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_Enemy.BP_Enemy
+[2023.06.22-04.36.34:019][255]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
+[2023.06.22-04.36.35:910][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-04.36.35:919][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-04.36.35:919][303]PIE: New page: PIE session: Map_Main (22 Jun 2023, 06:36:35)
+[2023.06.22-04.36.35:920][303]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.36.35:923][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003117s)
+[2023.06.22-04.36.35:923][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.003197s)
+[2023.06.22-04.36.35:923][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.36.35:923][303]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-04.36.35:924][303]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2023.06.22-04.36.36:014][303]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2023.06.22-04.36.36:016][303]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-04.36.36:016][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-04.36.36:016][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-04.36.36:017][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-04.36.36:017][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-04.36.36:017][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-04.36.36:020][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-04.36.36:052][303]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-04.36.36:052][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-04.36.36:052][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-04.36.36:052][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-04.36.36:053][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2023.06.22-04.36.36:053][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2023.06.22-04.36.36:056][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2023.06.22-04.36.36:056][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2023.06.22-04.36.36:056][303]LogInit: FAudioDevice initialized.
+[2023.06.22-04.36.36:056][303]LogAudio: Display: Audio Device (ID: 70) registered with world 'Map_Main'.
+[2023.06.22-04.36.36:060][303]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-04.36.36:061][303]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-05.36.36
+[2023.06.22-04.36.36:061][303]LogWorld: Bringing up level for play took: 0.000706
+[2023.06.22-04.36.36:063][303]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2023.06.22-04.36.36:065][303]PIE: Server logged in
+[2023.06.22-04.36.36:066][303]PIE: Play in editor total start time 0.148 seconds.
+[2023.06.22-04.36.43:862][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.36.43:862][461]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.36.43:862][461]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-04.36.43:862][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.36.43:946][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-04.36.43:954][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.36.44:038][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.36.44:038][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2023.06.22-04.36.44:040][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2023.06.22-04.36.44:049][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.06.22-04.36.44:121][462]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2023.06.22-04.38.17:590][950]BlueprintLog: New page: Compile BP_MyProjectile
+[2023.06.22-04.38.17:720][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.06.22-04.38.19:804][  7]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-04.38.19:811][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-04.38.19:811][  7]PIE: New page: PIE session: Map_Main (22 Jun 2023, 06:38:19)
+[2023.06.22-04.38.19:811][  7]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.38.19:814][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002993s)
+[2023.06.22-04.38.19:814][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.003050s)
+[2023.06.22-04.38.19:815][  7]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.38.19:815][  7]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-04.38.19:816][  7]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2023.06.22-04.38.19:910][  7]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2023.06.22-04.38.19:914][  7]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-04.38.19:914][  7]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-04.38.19:914][  7]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-04.38.19:915][  7]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-04.38.19:915][  7]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-04.38.19:915][  7]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-04.38.19:918][  7]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-04.38.19:950][  7]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-04.38.19:950][  7]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-04.38.19:950][  7]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-04.38.19:950][  7]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-04.38.19:951][  7]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2023.06.22-04.38.19:951][  7]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2023.06.22-04.38.19:953][  7]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2023.06.22-04.38.19:953][  7]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2023.06.22-04.38.19:953][  7]LogInit: FAudioDevice initialized.
+[2023.06.22-04.38.19:953][  7]LogAudio: Display: Audio Device (ID: 71) registered with world 'Map_Main'.
+[2023.06.22-04.38.19:957][  7]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-04.38.19:958][  7]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-05.38.19
+[2023.06.22-04.38.19:958][  7]LogWorld: Bringing up level for play took: 0.000701
+[2023.06.22-04.38.19:961][  7]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2023.06.22-04.38.19:962][  7]PIE: Server logged in
+[2023.06.22-04.38.19:963][  7]PIE: Play in editor total start time 0.152 seconds.
+[2023.06.22-04.38.30:542][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.38.30:543][235]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.38.30:543][235]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-04.38.30:543][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.38.30:602][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-04.38.30:610][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.38.30:702][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-04.38.30:702][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2023.06.22-04.38.30:704][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2023.06.22-04.38.30:711][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.38.30:714][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.06.22-04.38.30:786][236]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2023.06.22-04.38.31:821][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-04.38.31:924][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-04.38.32:020][252]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2023.06.22-04.38.32:030][252]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-04.38.32:030][252]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_MainA39AEAB64E8072368A69E0A3DDB4170B.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-04.38.32:051][252]LogFileHelpers: Saving map 'Map_Main' took 0.127
+[2023.06.22-04.38.32:064][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 28.0 sec)
+[2023.06.22-04.38.32:079][252]AssetCheck: New page: Asset Save: Map_Main
+[2023.06.22-04.38.32:079][252]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
