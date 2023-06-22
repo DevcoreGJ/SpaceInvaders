@@ -10771,3 +10771,57 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-18.42.31:283][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
 [2023.06.22-18.42.31:292][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
 [2023.06.22-18.42.31:353][203]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2023.06.22-18.43.01:922][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.06.22-18.43.01:925][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-18.43.01:937][ 19]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto2
+[2023.06.22-18.43.01:938][ 19]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto2739C36D2477B1123D9F40C9C5760205F.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto2.umap'
+[2023.06.22-18.43.01:948][ 19]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.117
+[2023.06.22-18.43.01:949][ 19]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.117
+[2023.06.22-18.44.19:201][286]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/Enemy_Parent.Enemy_Parent
+[2023.06.22-18.44.19:201][286]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-18.44.20:376][286]LogViewport: Scene viewport resized to 1280x693, mode Windowed.
+[2023.06.22-18.46.35:497][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.06.22-18.46.37:399][252]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-18.46.37:664][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-18.46.37:749][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-18.46.37:839][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.06.22-18.46.37:852][252]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-18.46.37:852][252]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_MainB8A43D684B8BC51842FC759AD6BE833A.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-18.46.37:869][252]LogFileHelpers: Saving map 'Map_Main' took 0.120
+[2023.06.22-18.46.37:869][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/Enemy_Parent" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Enemy_Parent.uasset" SILENT=true
+[2023.06.22-18.46.37:873][252]LogSavePackage: Moving output files for package: /Game/GameFramework/Enemy_Parent
+[2023.06.22-18.46.37:873][252]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Enemy_Parent43F5B84D45D98662211332B2A418F720.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Enemy_Parent.uasset'
+[2023.06.22-18.46.37:887][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 29.6 sec)
+[2023.06.22-18.46.37:898][252]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-18.46.37:899][252]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
+[2023.06.22-18.46.37:899][252]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/Enemy_Parent.Enemy_Parent
+[2023.06.22-18.49.06:008][ 29]BlueprintLog: New page: Compile Enemy_Parent
+[2023.06.22-18.49.06:136][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.06.22-18.50.04:627][466]BlueprintLog: New page: Compile Enemy_Parent
+[2023.06.22-18.50.04:748][466]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.06.22-18.51.24:349][833]BlueprintLog: New page: Compile Enemy_Parent
+[2023.06.22-18.51.24:471][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.06.22-18.51.33:149][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.06.22-18.51.35:200][342]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-18.51.35:375][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-18.51.35:495][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/Enemy_Parent" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Enemy_Parent.uasset" SILENT=true
+[2023.06.22-18.51.35:501][342]LogSavePackage: Moving output files for package: /Game/GameFramework/Enemy_Parent
+[2023.06.22-18.51.35:502][342]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Enemy_Parent6349332640DC7BA9101E5B976A559B72.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Enemy_Parent.uasset'
+[2023.06.22-18.51.35:517][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 29.8 sec)
+[2023.06.22-18.51.35:526][342]AssetCheck: New page: Asset Save: Enemy_Parent
+[2023.06.22-18.51.35:526][342]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/Enemy_Parent.Enemy_Parent
+[2023.06.22-18.52.31:693][684]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/GameFramework/Gameplay_Struct.Gameplay_Struct
+[2023.06.22-19.01.50:716][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-19.01.50:816][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/Gameplay_Struct" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Gameplay_Struct.uasset" SILENT=true
+[2023.06.22-19.01.50:820][764]LogSavePackage: Moving output files for package: /Game/GameFramework/Gameplay_Struct
+[2023.06.22-19.01.50:820][764]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Gameplay_Struct7D87E7F441462347C31F48A0AD4AB10E.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/Gameplay_Struct.uasset'
+[2023.06.22-19.01.50:835][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 29.9 sec)
+[2023.06.22-19.01.50:848][764]AssetCheck: New page: Asset Save: Gameplay_Struct
+[2023.06.22-19.01.50:848][764]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/GameFramework/Gameplay_Struct.Gameplay_Struct
+[2023.06.22-19.02.38:294][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.06.22-19.02.38:296][476]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.114
+[2023.06.22-19.02.38:297][476]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFramework/BP_SpaceInvaders] ([2] browsable assets)...
+[2023.06.22-19.02.38:297][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_SpaceInvaders]
+[2023.06.22-19.02.38:301][476]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto3
+[2023.06.22-19.02.38:302][476]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvaders_Auto3F65353114470BB381992B286A6E32375.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto3.uasset'
+[2023.06.22-19.02.38:302][476]LogFileHelpers: Auto-saving content packages took 0.006
