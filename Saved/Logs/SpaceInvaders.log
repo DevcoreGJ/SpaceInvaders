@@ -10705,3 +10705,69 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/Enemy_Parent.Enemy_Parent
 [2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/NewUserDefinedStruct.NewUserDefinedStruct
 [2023.06.22-18.31.46:464][928]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-18.34.48:947][772]BlueprintLog: New page: Compile Map_Main
+[2023.06.22-18.34.49:041][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.06.22-18.38.27:566][166]LogEditorTransaction: Undo Create Pin Link
+[2023.06.22-18.41.46:171][723]BlueprintLog: New page: Compile Map_Main
+[2023.06.22-18.41.46:173][723]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\Map_Main.umap: [Compiler] This blueprint (self) is not a BP_SpaceInvaders_C, therefore ' Target ' must have a connection.
+[2023.06.22-18.41.46:173][723]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\Map_Main.umap: [Compiler] This blueprint (self) is not a BP_SpaceInvaders_C, therefore ' Target ' must have a connection.
+[2023.06.22-18.41.46:173][723]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\Map_Main.umap: [Compiler] This blueprint (self) is not a BP_SpaceInvaders_C, therefore ' Target ' must have a connection.
+[2023.06.22-18.41.46:175][723]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\Map_Main.umap: [Compiler] Variable node  Set Direc_Light  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.06.22-18.41.46:175][723]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\Map_Main.umap: [Compiler] Variable node  Set Blocking_Vol  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.06.22-18.41.46:175][723]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\Map_Main.umap: [Compiler] Variable node  Set Blocking_Vol  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.06.22-18.41.46:298][723]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.06.22-18.41.55:332][262]LogDerivedDataCache: C:/Users/El Ledson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.138 and deleted 0 files with total size 0 MiB. Scanned 5086 files in 5025 folders with total size 215 MiB.
+[2023.06.22-18.42.17:610][567]BlueprintLog: New page: Compile Map_Main
+[2023.06.22-18.42.17:727][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.06.22-18.42.20:437][715]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-18.42.20:444][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-18.42.20:444][715]PIE: New page: PIE session: Map_Main (22 Jun 2023, 20:42:20)
+[2023.06.22-18.42.20:444][715]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-18.42.20:448][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004850s)
+[2023.06.22-18.42.20:449][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.004901s)
+[2023.06.22-18.42.20:449][715]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-18.42.20:449][715]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-18.42.20:450][715]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2023.06.22-18.42.20:539][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.06.22-18.42.20:542][715]LogAudio: Display: Creating Audio Device:                 Id: 92, Scope: Unique, Realtime: True
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-18.42.20:542][715]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-18.42.20:542][715]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-18.42.20:542][715]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-18.42.20:543][715]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-18.42.20:543][715]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-18.42.20:545][715]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-18.42.20:575][715]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-18.42.20:575][715]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-18.42.20:575][715]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-18.42.20:575][715]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-18.42.20:576][715]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=92
+[2023.06.22-18.42.20:576][715]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=92
+[2023.06.22-18.42.20:578][715]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=92
+[2023.06.22-18.42.20:578][715]LogInit: FAudioDevice initialized.
+[2023.06.22-18.42.20:578][715]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=92
+[2023.06.22-18.42.20:578][715]LogAudio: Display: Audio Device (ID: 92) registered with world 'Map_Main'.
+[2023.06.22-18.42.20:582][715]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-18.42.20:583][715]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-19.42.20
+[2023.06.22-18.42.20:584][715]LogWorld: Bringing up level for play took: 0.002606
+[2023.06.22-18.42.20:587][715]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2023.06.22-18.42.22:535][715]Cmd: t.maxfps 60
+[2023.06.22-18.42.22:536][715]t.MaxFPS = "60"
+[2023.06.22-18.42.22:536][715]PIE: Server logged in
+[2023.06.22-18.42.22:538][715]PIE: Play in editor total start time 2.095 seconds.
+[2023.06.22-18.42.31:164][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-18.42.31:164][202]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-18.42.31:164][202]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-18.42.31:165][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-18.42.31:176][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-18.42.31:185][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-18.42.31:280][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-18.42.31:280][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2023.06.22-18.42.31:283][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2023.06.22-18.42.31:292][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.06.22-18.42.31:353][203]LogPlayLevel: Display: Destroying online subsystem :Context_111
