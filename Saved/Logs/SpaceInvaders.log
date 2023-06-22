@@ -8586,3 +8586,12 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-04.11.14:205][644]LogPlayLevel: Display: Destroying online subsystem :Context_80
 [2023.06.22-04.12.32:600][962]BlueprintLog: New page: Compile BP_MyProjectile
 [2023.06.22-04.12.32:739][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2023.06.22-04.13.01:930][298]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2023.06.22-04.13.03:846][298]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-04.13.04:041][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-04.13.04:165][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyProjectile" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset" SILENT=true
+[2023.06.22-04.13.04:170][298]LogSavePackage: Moving output files for package: /Game/BP_MyProjectile
+[2023.06.22-04.13.04:170][298]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_MyProjectileD1195916437322742AD264A841170517.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset'
+[2023.06.22-04.13.04:181][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 25.4 sec)
+[2023.06.22-04.13.04:191][298]AssetCheck: New page: Asset Save: BP_MyProjectile
+[2023.06.22-04.13.04:191][298]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
