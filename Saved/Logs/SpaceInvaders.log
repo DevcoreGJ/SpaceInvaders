@@ -8595,3 +8595,64 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-04.13.04:181][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 25.4 sec)
 [2023.06.22-04.13.04:191][298]AssetCheck: New page: Asset Save: BP_MyProjectile
 [2023.06.22-04.13.04:191][298]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
+[2023.06.22-04.13.42:007][489]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-04.13.42:014][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-04.13.42:014][489]PIE: New page: PIE session: Map_Main (22 Jun 2023, 06:13:42)
+[2023.06.22-04.13.42:014][489]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.13.42:017][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002675s)
+[2023.06.22-04.13.42:017][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002727s)
+[2023.06.22-04.13.42:017][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-04.13.42:018][489]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-04.13.42:018][489]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2023.06.22-04.13.42:093][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.06.22-04.13.42:095][489]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-04.13.42:095][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-04.13.42:095][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-04.13.42:095][489]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-04.13.42:095][489]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-04.13.42:096][489]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-04.13.42:098][489]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-04.13.42:126][489]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-04.13.42:126][489]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-04.13.42:126][489]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-04.13.42:126][489]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-04.13.42:127][489]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2023.06.22-04.13.42:127][489]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2023.06.22-04.13.42:130][489]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2023.06.22-04.13.42:130][489]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2023.06.22-04.13.42:130][489]LogInit: FAudioDevice initialized.
+[2023.06.22-04.13.42:130][489]LogAudio: Display: Audio Device (ID: 67) registered with world 'Map_Main'.
+[2023.06.22-04.13.42:133][489]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-04.13.42:133][489]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-05.13.42
+[2023.06.22-04.13.42:135][489]LogWorld: Bringing up level for play took: 0.000664
+[2023.06.22-04.13.42:137][489]LogOnline: OSS: Created online subsystem instance for: :Context_81
+[2023.06.22-04.13.42:139][489]PIE: Server logged in
+[2023.06.22-04.13.42:140][489]PIE: Play in editor total start time 0.127 seconds.
+[2023.06.22-04.13.50:103][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.13.50:103][938]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-04.13.50:103][938]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-04.13.50:103][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.13.50:123][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-04.13.50:132][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-04.13.50:203][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-04.13.50:203][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2023.06.22-04.13.50:206][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2023.06.22-04.13.50:216][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.06.22-04.13.50:252][939]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2023.06.22-04.15.18:772][  7]BlueprintLog: New page: Compile BP_MyProjectile
+[2023.06.22-04.15.18:893][  7]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.06.22-04.15.21:901][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2023.06.22-04.15.23:297][178]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-04.15.23:510][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-04.15.23:622][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyProjectile" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset" SILENT=true
+[2023.06.22-04.15.23:627][178]LogSavePackage: Moving output files for package: /Game/BP_MyProjectile
+[2023.06.22-04.15.23:627][178]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_MyProjectileBE62A6894C48CB3B87527F9C644D3161.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset'
+[2023.06.22-04.15.23:637][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 25.5 sec)
+[2023.06.22-04.15.23:648][178]AssetCheck: New page: Asset Save: BP_MyProjectile
+[2023.06.22-04.15.23:648][178]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
