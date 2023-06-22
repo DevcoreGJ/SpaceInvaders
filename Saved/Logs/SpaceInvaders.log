@@ -7532,3 +7532,683 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-03.23.16:229][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.06.22-03.23.16:235][248]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
 [2023.06.22-03.23.16:299][249]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.06.22-03.26.27:802][379]LogViewport: Scene viewport resized to 1390x693, mode Windowed.
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: ================================================
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Total job queries 244, among them cache hits 79 (32.38%)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Tracking 164 distinct input hashes that result in 121 distinct outputs (73.78%)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: RAM used: 1.22 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.07%
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Shaders Compiled: 164
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Jobs assigned 165, completed 164 (99.39%)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Average time worker was idle: 338.78 s
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Time job spent in pending queue: average 3.45 s, longest 25.56 s
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Job execution time: average 5.71 s, max 20.37 s
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Job life time (pending + execution): average 9.18 s, max 28.29
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.85 s
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Jobs were issued in 120 batches (only local compilation was used), average 1.38 jobs/batch
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Average processing rate: 2.16 jobs/sec
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Total thread time: 227.52 s
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Total thread preprocess time: 12.93 s
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Percentage time preprocessing: 5.68%
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Effective parallelization: 3.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.43 sec, max 2.43 sec, min 2.43 sec)
+[2023.06.22-03.27.01:829][319]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 2.32 sec, max 2.32 sec, min 2.32 sec)
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.08% of total time (compiled   27 times, average 1.52 sec, max 2.27 sec, min 0.82 sec)
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 17.30% of total time (compiled   17 times, average 2.32 sec, max 3.49 sec, min 1.59 sec)
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.23% of total time (compiled   28 times, average 1.40 sec, max 2.08 sec, min 0.92 sec)
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.97% of total time (compiled   19 times, average 1.19 sec, max 1.70 sec, min 0.84 sec)
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.92% of total time (compiled   19 times, average 0.83 sec, max 1.52 sec, min 0.57 sec)
+[2023.06.22-03.27.01:830][319]LogShaderCompilers: Display: ================================================
+[2023.06.22-03.27.01:974][325]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.06.22-03.27.07:303][502]Cmd: DELETE
+[2023.06.22-03.27.07:303][502]Cmd: ACTOR DELETE
+[2023.06.22-03.27.07:308][502]LogEditorActor: Deleted Actor: Brush
+[2023.06.22-03.27.07:408][502]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.06.22-03.27.07:416][502]LogEditorActor: Deleted 1 Actors (0.113 secs)
+[2023.06.22-03.27.19:317][875]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.06.22-03.27.19:317][875]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.06.22-03.27.19:317][875]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map_Main.Map_Main:PersistentLevel.StaticMeshActor_2
+[2023.06.22-03.27.19:317][875]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map_Main.Map_Main:PersistentLevel.StaticMeshActor_2
+[2023.06.22-03.27.21:294][939]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.06.22-03.27.21:294][939]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.06.22-03.27.21:295][939]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map_Main.Map_Main:PersistentLevel.StaticMeshActor_3
+[2023.06.22-03.27.21:295][939]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map_Main.Map_Main:PersistentLevel.StaticMeshActor_3
+[2023.06.22-03.28.43:893][197]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2023.06.22-03.28.43:897][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.06.22-03.28.43:901][197]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map_Main_Auto1
+[2023.06.22-03.28.43:902][197]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main_Auto12AED39E643F9D2595E246C90521174AD.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/Map_Main_Auto1.umap'
+[2023.06.22-03.28.43:914][197]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.106
+[2023.06.22-03.28.43:914][197]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.106
+[2023.06.22-03.28.43:915][197]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameFramework/BP_PlayerPawn] ([2] browsable assets)...
+[2023.06.22-03.28.43:966][197]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn]
+[2023.06.22-03.28.43:966][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_PlayerPawn]
+[2023.06.22-03.28.43:974][197]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_PlayerPawn_Auto1
+[2023.06.22-03.28.43:974][197]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn_Auto158A8A6CE45145287F4BC0084B9062082.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_PlayerPawn_Auto1.uasset'
+[2023.06.22-03.28.43:974][197]LogFileHelpers: Auto-saving content packages took 0.061
+[2023.06.22-03.28.56:629][458]Cmd: SELECT NONE
+[2023.06.22-03.30.11:630][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-03.30.11:637][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-03.30.11:637][971]PIE: New page: PIE session: Map_Main (22 Jun 2023, 05:30:11)
+[2023.06.22-03.30.11:637][971]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.30.11:640][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002342s)
+[2023.06.22-03.30.11:640][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002387s)
+[2023.06.22-03.30.11:640][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.30.11:641][971]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-03.30.11:641][971]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2023.06.22-03.30.11:732][971]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.06.22-03.30.11:735][971]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-03.30.11:735][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-03.30.11:735][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-03.30.11:736][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-03.30.11:736][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-03.30.11:736][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-03.30.11:738][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-03.30.11:772][971]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-03.30.11:772][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-03.30.11:772][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-03.30.11:772][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-03.30.11:773][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2023.06.22-03.30.11:773][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2023.06.22-03.30.11:775][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2023.06.22-03.30.11:775][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2023.06.22-03.30.11:775][971]LogInit: FAudioDevice initialized.
+[2023.06.22-03.30.11:775][971]LogAudio: Display: Audio Device (ID: 55) registered with world 'Map_Main'.
+[2023.06.22-03.30.11:779][971]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-03.30.11:780][971]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-04.30.11
+[2023.06.22-03.30.11:780][971]LogWorld: Bringing up level for play took: 0.000667
+[2023.06.22-03.30.11:782][971]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2023.06.22-03.30.11:785][971]PIE: Server logged in
+[2023.06.22-03.30.11:786][971]PIE: Play in editor total start time 0.149 seconds.
+[2023.06.22-03.30.34:755][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.30.34:755][388]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.30.34:756][388]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.30.34:756][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.30.34:854][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-03.30.34:864][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.30.34:944][388]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-03.30.34:945][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.06.22-03.30.34:947][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.06.22-03.30.34:954][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.30.34:958][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2023.06.22-03.30.35:036][389]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.06.22-03.36.01:464][895]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.36.01:586][895]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2023.06.22-03.36.03:350][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-03.36.03:494][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-03.36.03:503][986]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-03.36.03:504][986]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn54AFE12A4CB1BB07935BFD9C1AD6BB25.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-03.36.03:516][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 23.1 sec)
+[2023.06.22-03.36.03:527][986]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2023.06.22-03.36.03:527][986]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-03.36.06:922][185]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2023.06.22-03.36.08:298][185]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-03.36.08:460][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-03.36.08:549][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-03.36.08:636][185]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2023.06.22-03.36.08:641][185]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-03.36.08:641][185]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_MainD511333B47CA5AD6A37B6586276F9D80.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-03.36.08:658][185]LogFileHelpers: Saving map 'Map_Main' took 0.109
+[2023.06.22-03.36.08:670][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 23.3 sec)
+[2023.06.22-03.36.08:681][185]AssetCheck: New page: Asset Save: Map_Main
+[2023.06.22-03.36.08:681][185]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
+[2023.06.22-03.36.15:219][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-03.36.15:227][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-03.36.15:227][389]PIE: New page: PIE session: Map_Main (22 Jun 2023, 05:36:15)
+[2023.06.22-03.36.15:227][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.36.15:230][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002977s)
+[2023.06.22-03.36.15:230][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.003035s)
+[2023.06.22-03.36.15:230][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.36.15:231][389]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-03.36.15:231][389]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2023.06.22-03.36.15:326][389]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2023.06.22-03.36.15:328][389]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-03.36.15:328][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-03.36.15:328][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-03.36.15:329][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-03.36.15:329][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-03.36.15:329][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-03.36.15:332][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-03.36.15:367][389]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-03.36.15:368][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-03.36.15:368][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-03.36.15:368][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-03.36.15:369][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2023.06.22-03.36.15:369][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2023.06.22-03.36.15:371][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2023.06.22-03.36.15:371][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2023.06.22-03.36.15:371][389]LogInit: FAudioDevice initialized.
+[2023.06.22-03.36.15:371][389]LogAudio: Display: Audio Device (ID: 56) registered with world 'Map_Main'.
+[2023.06.22-03.36.15:376][389]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-03.36.15:377][389]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-04.36.15
+[2023.06.22-03.36.15:377][389]LogWorld: Bringing up level for play took: 0.000710
+[2023.06.22-03.36.15:379][389]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2023.06.22-03.36.15:381][389]PIE: Server logged in
+[2023.06.22-03.36.15:382][389]PIE: Play in editor total start time 0.156 seconds.
+[2023.06.22-03.36.34:914][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.36.34:915][732]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.36.34:915][732]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.36.34:915][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.36.34:989][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-03.36.34:998][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.36.35:075][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.36.35:076][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.06.22-03.36.35:079][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.06.22-03.36.35:089][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2023.06.22-03.36.35:166][733]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2023.06.22-03.37.22:427][565]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.37.22:555][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2023.06.22-03.37.26:276][671]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-03.37.26:282][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-03.37.26:282][671]PIE: New page: PIE session: Map_Main (22 Jun 2023, 05:37:26)
+[2023.06.22-03.37.26:282][671]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.37.26:284][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002261s)
+[2023.06.22-03.37.26:284][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002306s)
+[2023.06.22-03.37.26:284][671]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.37.26:285][671]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-03.37.26:285][671]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2023.06.22-03.37.26:375][671]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2023.06.22-03.37.26:378][671]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-03.37.26:378][671]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-03.37.26:378][671]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-03.37.26:379][671]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-03.37.26:379][671]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-03.37.26:379][671]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-03.37.26:381][671]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-03.37.26:415][671]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-03.37.26:415][671]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-03.37.26:415][671]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-03.37.26:415][671]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-03.37.26:416][671]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2023.06.22-03.37.26:416][671]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2023.06.22-03.37.26:418][671]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2023.06.22-03.37.26:418][671]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2023.06.22-03.37.26:418][671]LogInit: FAudioDevice initialized.
+[2023.06.22-03.37.26:419][671]LogAudio: Display: Audio Device (ID: 57) registered with world 'Map_Main'.
+[2023.06.22-03.37.26:422][671]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-03.37.26:423][671]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-04.37.26
+[2023.06.22-03.37.26:423][671]LogWorld: Bringing up level for play took: 0.000651
+[2023.06.22-03.37.26:427][671]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2023.06.22-03.37.26:428][671]PIE: Server logged in
+[2023.06.22-03.37.26:430][671]PIE: Play in editor total start time 0.147 seconds.
+[2023.06.22-03.37.40:135][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.37.40:135][956]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.37.40:135][956]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.37.40:135][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.37.40:210][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-03.37.40:222][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.37.40:310][956]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-03.37.40:310][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2023.06.22-03.37.40:312][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2023.06.22-03.37.40:319][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.37.40:325][956]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2023.06.22-03.37.40:387][957]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2023.06.22-03.37.44:083][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2023.06.22-03.37.46:341][ 18]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-03.37.46:538][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-03.37.46:742][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-03.37.46:751][ 18]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-03.37.46:751][ 18]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn1FCB379E476EA1888DDBA08973FA6E8F.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-03.37.46:765][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 23.5 sec)
+[2023.06.22-03.37.46:777][ 18]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2023.06.22-03.37.46:777][ 18]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-03.38.46:227][491]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.38.46:365][491]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2023.06.22-03.38.49:271][564]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-03.38.49:278][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-03.38.49:279][564]PIE: New page: PIE session: Map_Main (22 Jun 2023, 05:38:49)
+[2023.06.22-03.38.49:279][564]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.38.49:282][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002709s)
+[2023.06.22-03.38.49:282][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002774s)
+[2023.06.22-03.38.49:282][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.38.49:282][564]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-03.38.49:284][564]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2023.06.22-03.38.49:386][564]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2023.06.22-03.38.49:390][564]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2023.06.22-03.38.49:390][564]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-03.38.49:390][564]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-03.38.49:390][564]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-03.38.49:390][564]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-03.38.49:390][564]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-03.38.49:390][564]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-03.38.49:391][564]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-03.38.49:391][564]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-03.38.49:391][564]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-03.38.49:391][564]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-03.38.49:391][564]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-03.38.49:394][564]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-03.38.49:431][564]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-03.38.49:432][564]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-03.38.49:432][564]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-03.38.49:432][564]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-03.38.49:432][564]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2023.06.22-03.38.49:433][564]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2023.06.22-03.38.49:435][564]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2023.06.22-03.38.49:435][564]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2023.06.22-03.38.49:435][564]LogInit: FAudioDevice initialized.
+[2023.06.22-03.38.49:435][564]LogAudio: Display: Audio Device (ID: 58) registered with world 'Map_Main'.
+[2023.06.22-03.38.49:439][564]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-03.38.49:440][564]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-04.38.49
+[2023.06.22-03.38.49:440][564]LogWorld: Bringing up level for play took: 0.000713
+[2023.06.22-03.38.49:443][564]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2023.06.22-03.38.49:792][564]PIE: Server logged in
+[2023.06.22-03.38.49:794][564]PIE: Play in editor total start time 0.515 seconds.
+[2023.06.22-03.39.00:665][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.39.00:665][779]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.39.00:665][779]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.39.00:665][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.39.00:719][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-03.39.00:730][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.39.00:823][779]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-03.39.00:823][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.06.22-03.39.00:826][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.06.22-03.39.00:833][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.39.00:838][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.06.22-03.39.00:921][780]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2023.06.22-03.39.05:048][948]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.39.05:048][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.42.24:513][818]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.42.24:656][818]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.06.22-03.42.27:108][928]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-03.42.27:115][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-03.42.27:115][928]PIE: New page: PIE session: Map_Main (22 Jun 2023, 05:42:27)
+[2023.06.22-03.42.27:115][928]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.42.27:117][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001756s)
+[2023.06.22-03.42.27:117][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.001799s)
+[2023.06.22-03.42.27:117][928]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.42.27:118][928]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-03.42.27:118][928]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2023.06.22-03.42.27:231][928]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2023.06.22-03.42.27:238][928]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-03.42.27:238][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-03.42.27:238][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-03.42.27:239][928]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-03.42.27:239][928]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-03.42.27:239][928]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-03.42.27:241][928]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-03.42.27:273][928]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-03.42.27:273][928]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-03.42.27:273][928]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-03.42.27:273][928]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-03.42.27:274][928]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2023.06.22-03.42.27:274][928]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2023.06.22-03.42.27:277][928]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2023.06.22-03.42.27:277][928]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2023.06.22-03.42.27:277][928]LogInit: FAudioDevice initialized.
+[2023.06.22-03.42.27:277][928]LogAudio: Display: Audio Device (ID: 59) registered with world 'Map_Main'.
+[2023.06.22-03.42.27:280][928]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-03.42.27:282][928]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-04.42.27
+[2023.06.22-03.42.27:282][928]LogWorld: Bringing up level for play took: 0.001699
+[2023.06.22-03.42.27:284][928]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2023.06.22-03.42.27:286][928]PIE: Server logged in
+[2023.06.22-03.42.27:287][928]PIE: Play in editor total start time 0.172 seconds.
+[2023.06.22-03.42.46:225][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.42.46:225][272]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.42.46:225][272]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.42.46:225][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.42.46:310][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-03.42.46:318][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.42.46:379][272]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-03.42.46:380][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.06.22-03.42.46:382][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.06.22-03.42.46:389][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.42.46:392][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.06.22-03.42.46:462][273]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.06.22-03.43.36:633][117]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.06.22-03.43.38:773][117]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-03.43.38:962][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-03.43.39:143][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-03.43.39:151][117]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-03.43.39:152][117]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn5B022C3540E2490821D6D497563D4736.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-03.43.39:164][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 23.7 sec)
+[2023.06.22-03.43.39:174][117]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2023.06.22-03.43.39:174][117]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-03.45.02:829][565]LogSlate: Window 'Project Settings' being destroyed
+[2023.06.22-03.45.02:904][565]LogSlate: Window 'Project Settings' being destroyed
+[2023.06.22-03.45.35:556][959]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.45.35:653][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.06.22-03.45.38:087][ 77]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.22-03.45.38:094][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.22-03.45.38:094][ 77]PIE: New page: PIE session: Map_Main (22 Jun 2023, 05:45:38)
+[2023.06.22-03.45.38:094][ 77]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.45.38:097][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002263s)
+[2023.06.22-03.45.38:097][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map_Main.Map_Main to /Game/UEDPIE_0_Map_Main.Map_Main (0.002329s)
+[2023.06.22-03.45.38:097][ 77]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.45.38:098][ 77]LogAIModule: Creating AISystem for world Map_Main
+[2023.06.22-03.45.38:098][ 77]LogPlayLevel: PIE: World Init took: (0.001414s)
+[2023.06.22-03.45.38:169][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.06.22-03.45.38:173][ 77]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.22-03.45.38:173][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.22-03.45.38:173][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.22-03.45.38:173][ 77]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.22-03.45.38:173][ 77]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.22-03.45.38:173][ 77]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.22-03.45.38:176][ 77]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.22-03.45.38:212][ 77]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.06.22-03.45.38:213][ 77]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.22-03.45.38:213][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.22-03.45.38:213][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.22-03.45.38:214][ 77]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2023.06.22-03.45.38:214][ 77]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2023.06.22-03.45.38:217][ 77]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2023.06.22-03.45.38:217][ 77]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2023.06.22-03.45.38:217][ 77]LogInit: FAudioDevice initialized.
+[2023.06.22-03.45.38:217][ 77]LogAudio: Display: Audio Device (ID: 60) registered with world 'Map_Main'.
+[2023.06.22-03.45.38:221][ 77]LogLoad: Game class is 'BP_SpaceInvaders_C'
+[2023.06.22-03.45.38:221][ 77]LogWorld: Bringing World /Game/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2023.06.22-04.45.38
+[2023.06.22-03.45.38:222][ 77]LogWorld: Bringing up level for play took: 0.000836
+[2023.06.22-03.45.38:224][ 77]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2023.06.22-03.45.38:226][ 77]PIE: Server logged in
+[2023.06.22-03.45.38:227][ 77]PIE: Play in editor total start time 0.133 seconds.
+[2023.06.22-03.45.41:740][161]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-03.45.41:984][167]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-03.45.42:164][171]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-03.45.42:346][175]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-03.45.42:580][180]LogBlueprintUserMessages: [BP_PlayerPawn_C_0] Hello
+[2023.06.22-03.45.44:105][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.45.44:105][212]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map_Main
+[2023.06.22-03.45.44:105][212]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.45.44:105][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.45.44:176][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.22-03.45.44:184][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.45.44:251][212]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.22-03.45.44:252][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.06.22-03.45.44:254][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.06.22-03.45.44:260][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.22-03.45.44:265][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.06.22-03.45.44:340][213]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2023.06.22-03.46.37:275][803]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-03.46.37:288][803]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-03.46.37:295][803]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-03.46.37:308][804]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-03.46.45:996][973]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_MyProjectile
+[2023.06.22-03.46.46:315][973]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-03.46.50:173][ 37]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/GameFramework/M_BackgroundMaterial.M_BackgroundMaterial
+[2023.06.22-03.46.50:178][ 37]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.46.50:407][ 37]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.46.50:407][ 37]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.46.50:407][ 37]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.46.50:415][ 37]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.06.22-03.46.50:504][ 38]LogShaderCompilers: Display: ================================================
+[2023.06.22-03.46.50:504][ 38]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-03.46.50:504][ 38]LogShaderCompilers: Display: Total job queries 249, among them cache hits 84 (33.73%)
+[2023.06.22-03.46.50:504][ 38]LogShaderCompilers: Display: Tracking 165 distinct input hashes that result in 122 distinct outputs (73.94%)
+[2023.06.22-03.46.50:504][ 38]LogShaderCompilers: Display: RAM used: 1.23 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.07%
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Shaders Compiled: 165
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Jobs assigned 165, completed 165 (100.00%)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Average time worker was idle: 338.78 s
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Time job spent in pending queue: average 3.45 s, longest 25.56 s
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Job execution time: average 5.69 s, max 20.37 s
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Job life time (pending + execution): average 9.13 s, max 28.29
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.96 s
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Jobs were issued in 120 batches (only local compilation was used), average 1.38 jobs/batch
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Average processing rate: 2.17 jobs/sec
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Total thread time: 228.99 s
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Total thread preprocess time: 13.03 s
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Percentage time preprocessing: 5.69%
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Effective parallelization: 3.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.43 sec, max 2.43 sec, min 2.43 sec)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 2.32 sec, max 2.32 sec, min 2.32 sec)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.61% of total time (compiled   28 times, average 1.52 sec, max 2.27 sec, min 0.82 sec)
+[2023.06.22-03.46.50:505][ 38]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 17.19% of total time (compiled   17 times, average 2.32 sec, max 3.49 sec, min 1.59 sec)
+[2023.06.22-03.46.50:506][ 38]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.12% of total time (compiled   28 times, average 1.40 sec, max 2.08 sec, min 0.92 sec)
+[2023.06.22-03.46.50:506][ 38]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.91% of total time (compiled   19 times, average 1.19 sec, max 1.70 sec, min 0.84 sec)
+[2023.06.22-03.46.50:506][ 38]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.87% of total time (compiled   19 times, average 0.83 sec, max 1.52 sec, min 0.57 sec)
+[2023.06.22-03.46.50:506][ 38]LogShaderCompilers: Display: ================================================
+[2023.06.22-03.46.50:586][ 39]MaterialEditorStats: Base pass shader without light map: 92 instructions
+[2023.06.22-03.46.50:586][ 39]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.46.50:586][ 39]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.46.50:586][ 39]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.46.50:586][ 39]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.46.59:462][487]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders
+[2023.06.22-03.46.59:463][487]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.47.04:072][701]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.47.04:072][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.47.04:133][701]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders
+[2023.06.22-03.47.04:134][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.47.29:214][111]LogViewport: Scene viewport resized to 1385x693, mode Windowed.
+[2023.06.22-03.48.07:942][409]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-03.48.08:090][409]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.BP_MyProjectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.SKEL_BP_MyProjectile_C:UserConstructionScript' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.SKEL_BP_MyProjectile_C' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.BP_MyProjectile_C' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.BP_MyProjectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.BP_MyProjectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:071][381]LogMetaData: Removing '/Game/BP_MyProjectile.BP_MyProjectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/GameFramework/BP_MyProjectile.PackageMetaData'
+[2023.06.22-03.49.08:072][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-03.49.08:179][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyProjectile" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset" SILENT=true
+[2023.06.22-03.49.08:183][381]LogSavePackage: Moving output files for package: /Game/BP_MyProjectile
+[2023.06.22-03.49.08:183][381]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_MyProjectile2959C2FF46F755BD9BBADCB796D32040.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/BP_MyProjectile.uasset'
+[2023.06.22-03.49.08:482][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 409 ms (total: 24.1 sec)
+[2023.06.22-03.49.09:007][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2023.06.22-03.49.09:083][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.06.22-03.49.09:152][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.06.22-03.49.09:198][381]AssetCheck: New page: Asset Save: BP_MyProjectile
+[2023.06.22-03.49.09:198][381]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_MyProjectile.BP_MyProjectile
+[2023.06.22-03.49.27:924][694]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.06.22-03.49.28:045][694]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.06.22-03.49.28:062][695]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.06.22-03.49.37:222][855]LogContentBrowser: Attempting asset rename: NewMaterial -> M_ProjectileColor
+[2023.06.22-03.49.37:538][855]LogContentBrowser: End creating deferred item NewMaterial
+[2023.06.22-03.49.38:625][876]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_ProjectileColor.M_ProjectileColor
+[2023.06.22-03.49.38:629][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.49.38:912][876]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.49.38:912][876]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.38:912][876]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.49.38:918][876]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.06.22-03.49.41:521][  4]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.49.41:522][  4]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.49.41:522][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.41:522][  4]MaterialEditorStats: Shader Count: 3
+[2023.06.22-03.49.41:621][  8]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.06.22-03.49.41:621][  8]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.49.41:622][  8]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.22-03.49.41:622][  8]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.41:622][  8]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.49.43:606][118]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.49.43:606][118]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.43:607][118]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.49.43:673][120]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.06.22-03.49.43:673][120]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.49.43:673][120]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.22-03.49.43:673][120]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.43:673][120]MaterialEditorStats: Shader Count: 2
+[2023.06.22-03.49.45:358][214]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.49.45:358][214]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.45:358][214]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.49.47:354][327]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.49.47:354][327]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.49.47:354][327]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.47:354][327]MaterialEditorStats: Shader Count: 3
+[2023.06.22-03.49.47:443][332]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.06.22-03.49.47:443][332]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.49.47:443][332]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.49.47:443][332]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.49.47:443][332]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.50.06:240][376]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.06:240][376]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.06:241][376]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: ================================================
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Total job queries 279, among them cache hits 106 (37.99%)
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Tracking 173 distinct input hashes that result in 122 distinct outputs (70.52%)
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: RAM used: 1.27 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.08%
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Shaders Compiled: 173
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Jobs assigned 173, completed 173 (100.00%)
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Average time worker was idle: 440.65 s
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Time job spent in pending queue: average 3.29 s, longest 25.56 s
+[2023.06.22-03.50.06:268][377]LogShaderCompilers: Display: Job execution time: average 5.52 s, max 20.37 s
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Job life time (pending + execution): average 8.81 s, max 28.29
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 80.64 s
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Jobs were issued in 128 batches (only local compilation was used), average 1.35 jobs/batch
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Average processing rate: 2.15 jobs/sec
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Total thread time: 241.09 s
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Total thread preprocess time: 13.87 s
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Percentage time preprocessing: 5.75%
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Effective parallelization: 2.99 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.43 sec, max 2.43 sec, min 2.43 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 2.32 sec, max 2.32 sec, min 2.32 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.17% of total time (compiled   30 times, average 1.54 sec, max 2.27 sec, min 0.82 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.66% of total time (compiled   30 times, average 1.42 sec, max 2.08 sec, min 0.92 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 16.33% of total time (compiled   17 times, average 2.32 sec, max 3.49 sec, min 1.59 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.67% of total time (compiled   21 times, average 1.23 sec, max 1.70 sec, min 0.84 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.38% of total time (compiled   21 times, average 0.85 sec, max 1.52 sec, min 0.57 sec)
+[2023.06.22-03.50.06:269][377]LogShaderCompilers: Display: ================================================
+[2023.06.22-03.50.06:283][378]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.06.22-03.50.06:283][378]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.50.06:283][378]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.06:283][378]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.06:283][378]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.50.11:762][695]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.11:762][695]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.11:762][695]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.50.14:174][826]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.50.14:174][826]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.14:174][826]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.14:174][826]MaterialEditorStats: Shader Count: 3
+[2023.06.22-03.50.14:281][832]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.06.22-03.50.14:281][832]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.50.14:281][832]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.14:281][832]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.14:281][832]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.50.35:626][ 44]LogSlate: Window 'Color Picker' being destroyed
+[2023.06.22-03.50.35:637][ 44]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.35:637][ 44]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.35:637][ 44]MaterialEditorStats: Shader Count: 0
+[2023.06.22-03.50.38:226][188]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.50.38:226][188]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.38:226][188]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.38:226][188]MaterialEditorStats: Shader Count: 3
+[2023.06.22-03.50.38:430][199]MaterialEditorStats: Base pass shader without light map: 92 instructions
+[2023.06.22-03.50.38:430][199]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.50.38:430][199]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.38:430][199]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.38:430][199]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.50.44:683][417]LogMaterialEditor: Applying material M_ProjectileColor
+[2023.06.22-03.50.45:542][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2023.06.22-03.50.46:737][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.06.22-03.50.46:751][417]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.46:751][417]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.46:752][417]MaterialEditorStats: Shader Count: 2
+[2023.06.22-03.50.46:780][419]MaterialEditorStats: Base pass shader without light map: 92 instructions
+[2023.06.22-03.50.46:780][419]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.06.22-03.50.46:780][419]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.22-03.50.46:780][419]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.22-03.50.46:780][419]MaterialEditorStats: Shader Count: 4
+[2023.06.22-03.50.48:055][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.06.22-03.50.50:250][490]LogSlate: Window 'Save Content' being destroyed
+[2023.06.22-03.50.50:534][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-03.50.50:672][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-03.50.50:682][490]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-03.50.50:683][490]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawn86FE12134740D188FC76F2803AE9A5AA.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-03.50.50:707][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_SpaceInvaders" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_SpaceInvaders.uasset" SILENT=true
+[2023.06.22-03.50.50:711][490]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_SpaceInvaders
+[2023.06.22-03.50.50:712][490]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvadersCDA2D2844CBE4560A6FD86ACB66ED400.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_SpaceInvaders.uasset'
+[2023.06.22-03.50.50:730][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_ProjectileColor" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/M_ProjectileColor.uasset" SILENT=true
+[2023.06.22-03.50.50:732][490]LogSavePackage: Moving output files for package: /Game/M_ProjectileColor
+[2023.06.22-03.50.50:732][490]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/M_ProjectileColorD2EE71634F246D2FDA2B578D1D56BA75.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/M_ProjectileColor.uasset'
+[2023.06.22-03.50.51:017][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 482 ms (total: 24.6 sec)
+[2023.06.22-03.50.51:028][490]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.22-03.50.51:028][490]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders
+[2023.06.22-03.50.51:028][490]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_ProjectileColor.M_ProjectileColor
+[2023.06.22-03.50.51:028][490]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-03.50.54:101][668]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.50.54:101][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.50.57:427][858]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-03.50.57:547][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.06.22-03.51.22:960][359]Cmd: TRANSACTION UNDO
+[2023.06.22-03.51.22:961][359]LogEditorTransaction: Undo Create Actors
+[2023.06.22-03.51.31:297][494]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MyProjectile.BP_MyProjectile
+[2023.06.22-03.51.31:298][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-03.51.32:301][494]LogViewport: Scene viewport resized to 1385x693, mode Windowed.
+[2023.06.22-03.52.17:810][ 37]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/Animation/ControlRig/Content/Controls: 'D:/UE_5.1/Engine/Plugins/Animation/ControlRig/Content/Controls' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.17:810][ 37]SourceControl: fatal: D:/UE_5.1/Engine/Content/BasicShapes: 'D:/UE_5.1/Engine/Content/BasicShapes' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.17:810][ 37]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineMeshes/Cube.uasset: 'D:/UE_5.1/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.17:810][ 37]SourceControl: fatal: D:/UE_5.1/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/UE_5.1/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.21:522][179]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineMaterials/BaseFlattenMaterial_VT.uasset: 'D:/UE_5.1/Engine/Content/EngineMaterials/BaseFlattenMaterial_VT.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.21:522][179]SourceControl: fatal: D:/UE_5.1/Engine/Content/MapTemplates/Materials: 'D:/UE_5.1/Engine/Content/MapTemplates/Materials' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.21:522][179]SourceControl: fatal: D:/UE_5.1/Engine/Content/BasicShapes: 'D:/UE_5.1/Engine/Content/BasicShapes' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.21:523][179]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'D:/UE_5.1/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.25:406][320]SourceControl: fatal: D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials: 'D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.25:407][320]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/FX/Niagara/Content/DefaultAssets/M_DepthFade_SpriteSimple.uasset: 'D:/UE_5.1/Engine/Plugins/FX/Niagara/Content/DefaultAssets/M_DepthFade_SpriteSimple.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.25:407][320]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content/Materials/M_DynamicMeshComponentVtxColor.uasset: 'D:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content/Materials/M_DynamicMeshComponentVtxColor.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.25:407][320]SourceControl: fatal: D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug: 'D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.31:763][608]SourceControl: fatal: D:/UE_5.1/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/UE_5.1/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.31:763][608]SourceControl: fatal: D:/UE_5.1/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/UE_5.1/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.31:763][608]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasReference.uasset: 'D:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasReference.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.31:763][608]SourceControl: fatal: D:/UE_5.1/Engine/Content/EditorLandscapeResources: 'D:/UE_5.1/Engine/Content/EditorLandscapeResources' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.31:763][608]SourceControl: fatal: D:/UE_5.1/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'D:/UE_5.1/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.35:823][771]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-03.52.35:823][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-03.52.58:203][683]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineMaterials/BaseFlattenMaterial_VT.uasset: 'D:/UE_5.1/Engine/Content/EngineMaterials/BaseFlattenMaterial_VT.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.58:203][683]SourceControl: fatal: D:/UE_5.1/Engine/Content/MapTemplates/Materials: 'D:/UE_5.1/Engine/Content/MapTemplates/Materials' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.58:203][683]SourceControl: fatal: D:/UE_5.1/Engine/Content/BasicShapes: 'D:/UE_5.1/Engine/Content/BasicShapes' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.52.58:203][683]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'D:/UE_5.1/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.00:843][798]SourceControl: fatal: D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials: 'D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.00:843][798]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/FX/Niagara/Content/DefaultAssets/M_DepthFade_SpriteSimple.uasset: 'D:/UE_5.1/Engine/Plugins/FX/Niagara/Content/DefaultAssets/M_DepthFade_SpriteSimple.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.00:843][798]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content/Materials/M_DynamicMeshComponentVtxColor.uasset: 'D:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content/Materials/M_DynamicMeshComponentVtxColor.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.00:843][798]SourceControl: fatal: D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug: 'D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.04:239][932]SourceControl: fatal: D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug: 'D:/UE_5.1/Engine/Content/ArtTools/RenderToTexture/Materials/Debug' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.04:239][932]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineSky/M_AdvancedSkyDome.uasset: 'D:/UE_5.1/Engine/Content/EngineSky/M_AdvancedSkyDome.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-03.53.17:261][652]BlueprintLog: New page: Compile BP_MyProjectile
+[2023.06.22-03.53.17:382][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.06.22-03.53.27:487][246]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.53.27:601][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.06.22-03.53.47:919][363]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-03.53.47:920][363]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-03.53.47:920][363]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-03.55.13:022][380]LogViewport: Scene viewport resized to 1219x693, mode Windowed.
+[2023.06.22-03.55.51:760][679]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.55.51:767][679]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\GameFramework\BP_PlayerPawn.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.06.22-03.55.51:767][679]LogBlueprint: Error: [AssetLog] D:\Unreal Engine Projects\SpaceInvaders\Content\GameFramework\BP_PlayerPawn.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.06.22-03.55.51:924][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.06.22-03.57.21:595][906]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-03.57.21:697][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
