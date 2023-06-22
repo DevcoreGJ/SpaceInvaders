@@ -1945,3 +1945,216 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.06.22-00.17.41:906][401]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Space does not exist, will not scan.
 [2023.06.22-00.18.05:036][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
 [2023.06.22-00.18.05:037][470]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.011
+[2023.06.22-00.24.25:546][574]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.24.25:547][574]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.24.25:547][574]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.24.28:137][574]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-00.24.28:146][574]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-00.24.28:152][574]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-00.24.28:187][576]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-00.24.35:280][  1]LogContentBrowser: Attempting asset rename: NewBlueprint -> Bp_SpaceInvaders
+[2023.06.22-00.24.35:305][  1]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-00.24.57:821][344]LogContentBrowser: Attempting asset rename: Bp_SpaceInvaders -> Bp_SpaceInvaders
+[2023.06.22-00.25.03:295][671]LogContentBrowser: Attempting asset rename: Bp_SpaceInvaders -> BP_SpaceInvaders
+[2023.06.22-00.25.03:327][671]LogMetaData: Removing '/Game/GameFramework/RenameTmp.RenameTmp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GameFramework/Bp_SpaceInvaders.PackageMetaData'
+[2023.06.22-00.25.03:327][671]LogMetaData: Removing '/Game/GameFramework/RenameTmp.SKEL_RenameTmp_C:UserConstructionScript' ref from Metadata '/Game/GameFramework/Bp_SpaceInvaders.PackageMetaData'
+[2023.06.22-00.25.03:327][671]LogMetaData: Removing '/Game/GameFramework/RenameTmp.SKEL_RenameTmp_C' ref from Metadata '/Game/GameFramework/Bp_SpaceInvaders.PackageMetaData'
+[2023.06.22-00.25.03:327][671]LogMetaData: Removing '/Game/GameFramework/RenameTmp.RenameTmp_C' ref from Metadata '/Game/GameFramework/Bp_SpaceInvaders.PackageMetaData'
+[2023.06.22-00.25.03:327][671]LogMetaData: Removing '/Game/GameFramework/RenameTmp.RenameTmp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GameFramework/Bp_SpaceInvaders.PackageMetaData'
+[2023.06.22-00.25.03:327][671]LogMetaData: Removing '/Game/GameFramework/RenameTmp.RenameTmp:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GameFramework/Bp_SpaceInvaders.PackageMetaData'
+[2023.06.22-00.25.03:387][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.06.22-00.25.03:398][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.22-00.25.03:408][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.06.22-00.25.03:409][671]LogMetaData: Removing '/Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders_C' ref from Metadata '/Game/GameFramework/RenameTmp.PackageMetaData'
+[2023.06.22-00.25.03:409][671]LogMetaData: Removing '/Game/GameFramework/BP_SpaceInvaders.SKEL_BP_SpaceInvaders_C' ref from Metadata '/Game/GameFramework/RenameTmp.PackageMetaData'
+[2023.06.22-00.25.03:409][671]LogMetaData: Removing '/Game/GameFramework/BP_SpaceInvaders.SKEL_BP_SpaceInvaders_C:UserConstructionScript' ref from Metadata '/Game/GameFramework/RenameTmp.PackageMetaData'
+[2023.06.22-00.25.03:409][671]LogMetaData: Removing '/Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GameFramework/RenameTmp.PackageMetaData'
+[2023.06.22-00.25.03:409][671]LogMetaData: Removing '/Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GameFramework/RenameTmp.PackageMetaData'
+[2023.06.22-00.25.03:409][671]LogMetaData: Removing '/Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GameFramework/RenameTmp.PackageMetaData'
+[2023.06.22-00.25.03:466][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.06.22-00.25.03:475][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.06.22-00.25.03:483][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.06.22-00.25.04:557][735]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/BP_SpaceInvaders.BP_SpaceInvaders
+[2023.06.22-00.25.04:559][735]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-00.25.06:561][735]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.06.22-00.25.22:659][735]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [15891ms] waiting for h/w. InstanceID=1
+[2023.06.22-00.25.22:660][735]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049944s
+[2023.06.22-00.25.23:572][735]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.001493s (0.961336s overbudget)
+[2023.06.22-00.25.23:593][735]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23084
+[2023.06.22-00.25.23:636][735]LogViewport: Scene viewport resized to 1476x287, mode Windowed.
+[2023.06.22-00.25.23:683][736]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{4e70c631-9186-4ce8-a72d-e0fc460c76f2}, Name=Speakers (Realtek High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=38.31
+[2023.06.22-00.25.23:683][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.06.22-00.25.23:685][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.06.22-00.26.27:202][918]LogSlate: Window 'Source Control Login' being destroyed
+[2023.06.22-00.26.46:266][919]LogViewport: Scene viewport resized to 1520x693, mode Windowed.
+[2023.06.22-00.26.46:753][948]LogSlate: Window 'BP_SpaceInvaders' being destroyed
+[2023.06.22-00.27.02:405][874]LogViewport: Scene viewport resized to 1525x693, mode Windowed.
+[2023.06.22-00.27.02:453][876]LogViewport: Scene viewport resized to 1548x693, mode Windowed.
+[2023.06.22-00.27.02:485][878]LogViewport: Scene viewport resized to 1578x693, mode Windowed.
+[2023.06.22-00.27.02:518][880]LogViewport: Scene viewport resized to 1589x693, mode Windowed.
+[2023.06.22-00.27.02:550][882]LogViewport: Scene viewport resized to 1593x693, mode Windowed.
+[2023.06.22-00.27.02:583][884]LogViewport: Scene viewport resized to 1597x693, mode Windowed.
+[2023.06.22-00.27.02:603][885]LogViewport: Scene viewport resized to 1599x693, mode Windowed.
+[2023.06.22-00.27.02:871][901]LogViewport: Scene viewport resized to 1601x693, mode Windowed.
+[2023.06.22-00.27.02:908][903]LogViewport: Scene viewport resized to 1609x693, mode Windowed.
+[2023.06.22-00.27.02:947][905]LogViewport: Scene viewport resized to 1617x693, mode Windowed.
+[2023.06.22-00.27.02:977][907]LogViewport: Scene viewport resized to 1622x693, mode Windowed.
+[2023.06.22-00.27.03:010][909]LogViewport: Scene viewport resized to 1623x693, mode Windowed.
+[2023.06.22-00.27.03:028][910]LogViewport: Scene viewport resized to 1625x693, mode Windowed.
+[2023.06.22-00.27.03:146][917]LogViewport: Scene viewport resized to 1627x693, mode Windowed.
+[2023.06.22-00.27.03:279][925]LogViewport: Scene viewport resized to 1629x693, mode Windowed.
+[2023.06.22-00.27.06:573][122]LogViewport: Scene viewport resized to 1634x693, mode Windowed.
+[2023.06.22-00.27.06:607][124]LogViewport: Scene viewport resized to 1638x693, mode Windowed.
+[2023.06.22-00.27.06:638][125]LogViewport: Scene viewport resized to 1648x693, mode Windowed.
+[2023.06.22-00.27.06:672][127]LogViewport: Scene viewport resized to 1652x693, mode Windowed.
+[2023.06.22-00.27.06:704][129]LogViewport: Scene viewport resized to 1657x693, mode Windowed.
+[2023.06.22-00.27.06:739][131]LogViewport: Scene viewport resized to 1661x693, mode Windowed.
+[2023.06.22-00.27.06:821][136]LogViewport: Scene viewport resized to 1664x693, mode Windowed.
+[2023.06.22-00.27.06:856][138]LogViewport: Scene viewport resized to 1666x693, mode Windowed.
+[2023.06.22-00.27.06:894][140]LogViewport: Scene viewport resized to 1670x693, mode Windowed.
+[2023.06.22-00.27.06:944][143]LogViewport: Scene viewport resized to 1672x693, mode Windowed.
+[2023.06.22-00.27.06:961][144]LogViewport: Scene viewport resized to 1674x693, mode Windowed.
+[2023.06.22-00.27.07:064][149]LogViewport: Scene viewport resized to 1676x693, mode Windowed.
+[2023.06.22-00.27.07:167][155]LogViewport: Scene viewport resized to 1677x693, mode Windowed.
+[2023.06.22-00.27.07:217][158]LogViewport: Scene viewport resized to 1679x693, mode Windowed.
+[2023.06.22-00.27.07:251][160]LogViewport: Scene viewport resized to 1680x693, mode Windowed.
+[2023.06.22-00.27.07:823][194]LogViewport: Scene viewport resized to 1677x693, mode Windowed.
+[2023.06.22-00.27.07:881][196]LogViewport: Scene viewport resized to 1671x693, mode Windowed.
+[2023.06.22-00.27.07:955][200]LogViewport: Scene viewport resized to 1669x693, mode Windowed.
+[2023.06.22-00.27.08:005][203]LogViewport: Scene viewport resized to 1667x693, mode Windowed.
+[2023.06.22-00.27.08:090][208]LogViewport: Scene viewport resized to 1664x693, mode Windowed.
+[2023.06.22-00.27.32:930][669]LogViewport: Scene viewport resized to 1227x693, mode Windowed.
+[2023.06.22-00.27.36:464][871]LogViewport: Scene viewport resized to 1259x693, mode Windowed.
+[2023.06.22-00.27.36:503][873]LogViewport: Scene viewport resized to 1291x693, mode Windowed.
+[2023.06.22-00.27.36:538][875]LogViewport: Scene viewport resized to 1308x693, mode Windowed.
+[2023.06.22-00.27.36:573][877]LogViewport: Scene viewport resized to 1315x693, mode Windowed.
+[2023.06.22-00.27.36:608][879]LogViewport: Scene viewport resized to 1318x693, mode Windowed.
+[2023.06.22-00.27.36:642][881]LogViewport: Scene viewport resized to 1319x693, mode Windowed.
+[2023.06.22-00.27.37:876][955]LogViewport: Scene viewport resized to 1320x693, mode Windowed.
+[2023.06.22-00.27.37:946][958]LogViewport: Scene viewport resized to 1312x693, mode Windowed.
+[2023.06.22-00.27.37:980][960]LogViewport: Scene viewport resized to 1306x693, mode Windowed.
+[2023.06.22-00.27.38:023][962]LogViewport: Scene viewport resized to 1294x693, mode Windowed.
+[2023.06.22-00.27.38:057][964]LogViewport: Scene viewport resized to 1285x693, mode Windowed.
+[2023.06.22-00.27.38:090][966]LogViewport: Scene viewport resized to 1278x693, mode Windowed.
+[2023.06.22-00.27.38:123][968]LogViewport: Scene viewport resized to 1276x693, mode Windowed.
+[2023.06.22-00.27.38:173][971]LogViewport: Scene viewport resized to 1273x693, mode Windowed.
+[2023.06.22-00.27.38:223][974]LogViewport: Scene viewport resized to 1270x693, mode Windowed.
+[2023.06.22-00.27.38:259][976]LogViewport: Scene viewport resized to 1267x693, mode Windowed.
+[2023.06.22-00.27.38:279][977]LogViewport: Scene viewport resized to 1262x693, mode Windowed.
+[2023.06.22-00.27.38:315][979]LogViewport: Scene viewport resized to 1253x693, mode Windowed.
+[2023.06.22-00.27.38:349][981]LogViewport: Scene viewport resized to 1250x693, mode Windowed.
+[2023.06.22-00.27.38:382][983]LogViewport: Scene viewport resized to 1241x693, mode Windowed.
+[2023.06.22-00.27.38:416][985]LogViewport: Scene viewport resized to 1237x693, mode Windowed.
+[2023.06.22-00.27.38:450][987]LogViewport: Scene viewport resized to 1233x693, mode Windowed.
+[2023.06.22-00.27.38:515][991]LogViewport: Scene viewport resized to 1230x693, mode Windowed.
+[2023.06.22-00.27.41:698][182]LogViewport: Scene viewport resized to 1259x693, mode Windowed.
+[2023.06.22-00.27.41:734][184]LogViewport: Scene viewport resized to 1305x693, mode Windowed.
+[2023.06.22-00.27.41:779][186]LogViewport: Scene viewport resized to 1321x693, mode Windowed.
+[2023.06.22-00.27.41:813][188]LogViewport: Scene viewport resized to 1324x693, mode Windowed.
+[2023.06.22-00.27.41:847][190]LogViewport: Scene viewport resized to 1327x693, mode Windowed.
+[2023.06.22-00.27.41:881][192]LogViewport: Scene viewport resized to 1332x693, mode Windowed.
+[2023.06.22-00.27.41:915][194]LogViewport: Scene viewport resized to 1336x693, mode Windowed.
+[2023.06.22-00.27.41:948][196]LogViewport: Scene viewport resized to 1351x693, mode Windowed.
+[2023.06.22-00.27.41:983][198]LogViewport: Scene viewport resized to 1369x693, mode Windowed.
+[2023.06.22-00.27.42:016][200]LogViewport: Scene viewport resized to 1385x693, mode Windowed.
+[2023.06.22-00.28.10:994][789]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.06.22-00.28.11:004][789]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.06.22-00.28.11:008][789]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.06.22-00.28.11:018][790]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.06.22-00.28.22:686][483]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PlayerPawn
+[2023.06.22-00.28.22:840][483]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.06.22-00.28.33:133][ 61]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-00.28.33:133][ 61]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.22-00.28.34:001][ 61]LogViewport: Scene viewport resized to 1121x693, mode Windowed.
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: ================================================
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Total job queries 108, among them cache hits 11 (10.19%)
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Tracking 94 distinct input hashes that result in 78 distinct outputs (82.98%)
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: RAM used: 0.83 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.05%
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Shaders Compiled: 94
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Jobs assigned 97, completed 94 (96.91%)
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Average time worker was idle: 130.69 s
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Time job spent in pending queue: average 5.39 s, longest 25.56 s
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Job execution time: average 8.77 s, max 20.37 s
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Job life time (pending + execution): average 14.32 s, max 28.29
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 41.17 s
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Jobs were issued in 52 batches (only local compilation was used), average 1.87 jobs/batch
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Average processing rate: 2.28 jobs/sec
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Total thread time: 143.63 s
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Total thread preprocess time: 7.25 s
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Percentage time preprocessing: 5.05%
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Effective parallelization: 3.49 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.06.22-00.29.01:348][667]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.48 sec, max 2.48 sec, min 2.48 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.43 sec, max 2.43 sec, min 2.43 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 2.32 sec, max 2.32 sec, min 2.32 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 27.41% of total time (compiled   17 times, average 2.32 sec, max 3.49 sec, min 1.59 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.37% of total time (compiled   10 times, average 1.49 sec, max 2.13 sec, min 1.27 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.21% of total time (compiled   10 times, average 1.32 sec, max 1.55 sec, min 1.13 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.57% of total time (compiled    8 times, average 1.18 sec, max 1.41 sec, min 1.01 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.54% of total time (compiled    9 times, average 0.88 sec, max 1.52 sec, min 0.65 sec)
+[2023.06.22-00.29.01:349][667]LogShaderCompilers: Display: ================================================
+[2023.06.22-00.29.34:439][543]Cmd: MODE ROTGRID=0
+[2023.06.22-00.29.35:432][597]Cmd: MODE SCALEGRID=0
+[2023.06.22-00.30.01:325][124]Cmd: MODE GRID=0
+[2023.06.22-00.31.00:861][651]BlueprintLog: New page: Compile BP_PlayerPawn
+[2023.06.22-00.31.01:075][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.22-00.31.02:113][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.06.22-00.31.02:114][700]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map_Main' took 0.055
+[2023.06.22-00.31.02:114][700]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFramework/BP_SpaceInvaders] ([2] browsable assets)...
+[2023.06.22-00.31.02:115][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFramework/BP_SpaceInvaders]
+[2023.06.22-00.31.02:118][700]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto1
+[2023.06.22-00.31.02:118][700]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_SpaceInvaders_Auto183ED39C44FAF6FA23D964E83625F2D31.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Autosaves/Game/GameFramework/BP_SpaceInvaders_Auto1.uasset'
+[2023.06.22-00.31.02:118][700]LogFileHelpers: Auto-saving content packages took 0.005
+[2023.06.22-00.31.14:751][444]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.31.14:751][444]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.31.14:752][444]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.31.20:093][756]BlueprintLog: New page: Compile BP_SpaceInvaders
+[2023.06.22-00.31.20:169][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.06.22-00.32.03:692][214]LogSlate: Took 0.005548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.22-00.32.05:066][285]SourceControl: fatal: D:/UE_5.1/Engine/Content/EditorBlueprintResources: 'D:/UE_5.1/Engine/Content/EditorBlueprintResources' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-00.32.05:066][285]SourceControl: fatal: D:/UE_5.1/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset: 'D:/UE_5.1/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-00.32.05:067][285]SourceControl: fatal: D:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/StdDecal/BP_DecalTestPOM.uasset: 'D:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/StdDecal/BP_DecalTestPOM.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-00.32.05:067][285]SourceControl: fatal: D:/UE_5.1/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'D:/UE_5.1/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository at 'D:/Unreal Engine Projects/SpaceInvaders'
+[2023.06.22-00.32.22:477][323]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.32.22:478][323]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.32.22:478][323]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.06.22-00.33.06:225][618]LogViewport: Scene viewport resized to 1206x585, mode Windowed.
+[2023.06.22-00.33.12:216][974]LogViewport: Scene viewport resized to 1196x585, mode Windowed.
+[2023.06.22-00.33.12:279][976]LogViewport: Scene viewport resized to 1171x585, mode Windowed.
+[2023.06.22-00.33.12:321][978]LogViewport: Scene viewport resized to 1151x585, mode Windowed.
+[2023.06.22-00.33.12:354][980]LogViewport: Scene viewport resized to 1147x585, mode Windowed.
+[2023.06.22-00.33.12:389][982]LogViewport: Scene viewport resized to 1141x585, mode Windowed.
+[2023.06.22-00.33.12:423][984]LogViewport: Scene viewport resized to 1137x585, mode Windowed.
+[2023.06.22-00.33.12:458][986]LogViewport: Scene viewport resized to 1135x585, mode Windowed.
+[2023.06.22-00.33.12:492][988]LogViewport: Scene viewport resized to 1133x585, mode Windowed.
+[2023.06.22-00.33.12:544][991]LogViewport: Scene viewport resized to 1132x585, mode Windowed.
+[2023.06.22-00.33.28:869][969]LogViewport: Scene viewport resized to 1133x585, mode Windowed.
+[2023.06.22-00.33.28:921][971]LogViewport: Scene viewport resized to 1138x585, mode Windowed.
+[2023.06.22-00.33.29:110][982]LogViewport: Scene viewport resized to 1143x585, mode Windowed.
+[2023.06.22-00.33.29:160][985]LogViewport: Scene viewport resized to 1146x585, mode Windowed.
+[2023.06.22-00.33.29:194][987]LogViewport: Scene viewport resized to 1150x585, mode Windowed.
+[2023.06.22-00.33.29:227][989]LogViewport: Scene viewport resized to 1153x585, mode Windowed.
+[2023.06.22-00.33.29:277][992]LogViewport: Scene viewport resized to 1154x585, mode Windowed.
+[2023.06.22-00.33.29:411][  0]LogViewport: Scene viewport resized to 1159x585, mode Windowed.
+[2023.06.22-00.33.29:526][  7]LogViewport: Scene viewport resized to 1161x585, mode Windowed.
+[2023.06.22-00.33.29:560][  9]LogViewport: Scene viewport resized to 1164x585, mode Windowed.
+[2023.06.22-00.33.29:610][ 12]LogViewport: Scene viewport resized to 1165x585, mode Windowed.
+[2023.06.22-00.33.29:643][ 14]LogViewport: Scene viewport resized to 1167x585, mode Windowed.
+[2023.06.22-00.33.29:677][ 16]LogViewport: Scene viewport resized to 1169x585, mode Windowed.
+[2023.06.22-00.33.29:743][ 20]LogViewport: Scene viewport resized to 1173x585, mode Windowed.
+[2023.06.22-00.33.29:777][ 22]LogViewport: Scene viewport resized to 1174x585, mode Windowed.
+[2023.06.22-00.33.29:810][ 24]LogViewport: Scene viewport resized to 1176x585, mode Windowed.
+[2023.06.22-00.33.33:971][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-00.33.34:065][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_Main" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.22-00.33.34:123][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.06.22-00.33.34:126][262]LogSavePackage: Moving output files for package: /Game/Map_Main
+[2023.06.22-00.33.34:126][262]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/Map_Main76DEFAB1421634DFDF983DAB03C1C0C3.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/Map_Main.umap'
+[2023.06.22-00.33.34:142][262]LogFileHelpers: Saving map 'Map_Main' took 0.078
+[2023.06.22-00.33.34:156][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 20.2 sec)
+[2023.06.22-00.33.34:163][262]AssetCheck: New page: Asset Save: Map_Main
+[2023.06.22-00.33.34:163][262]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map_Main.Map_Main
