@@ -6729,3 +6729,10 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.06.22-02.22.51:195][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 22.2 sec)
 [2023.06.22-02.22.51:208][609]AssetCheck: New page: Asset Save: BP_PlayerPawn
 [2023.06.22-02.22.51:209][609]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
+[2023.06.22-02.24.12:265][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-02.24.12:404][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFramework/BP_PlayerPawn" FILE="../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset" SILENT=true
+[2023.06.22-02.24.12:410][473]LogSavePackage: Moving output files for package: /Game/GameFramework/BP_PlayerPawn
+[2023.06.22-02.24.12:410][473]LogSavePackage: Moving '../../../../Unreal Engine Projects/SpaceInvaders/Saved/BP_PlayerPawnC1DF140D4C2A7FCB9C5AE6B164402EFA.tmp' to '../../../../Unreal Engine Projects/SpaceInvaders/Content/GameFramework/BP_PlayerPawn.uasset'
+[2023.06.22-02.24.12:424][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 22.4 sec)
+[2023.06.22-02.24.12:437][473]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2023.06.22-02.24.12:437][473]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameFramework/BP_PlayerPawn.BP_PlayerPawn
